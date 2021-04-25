@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/17lands-viewer/static/css/main.6e55d6b9.chunk.css",
-    "main.js": "/17lands-viewer/static/js/main.d611c7f5.chunk.js",
-    "main.js.map": "/17lands-viewer/static/js/main.d611c7f5.chunk.js.map",
+    "main.js": "/17lands-viewer/static/js/main.48f79faf.chunk.js",
+    "main.js.map": "/17lands-viewer/static/js/main.48f79faf.chunk.js.map",
     "runtime-main.js": "/17lands-viewer/static/js/runtime-main.5b99d323.js",
     "runtime-main.js.map": "/17lands-viewer/static/js/runtime-main.5b99d323.js.map",
     "static/js/2.70beaf5a.chunk.js": "/17lands-viewer/static/js/2.70beaf5a.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5b99d323.js",
     "static/js/2.70beaf5a.chunk.js",
     "static/css/main.6e55d6b9.chunk.css",
-    "static/js/main.d611c7f5.chunk.js"
+    "static/js/main.48f79faf.chunk.js"
   ]
 }
