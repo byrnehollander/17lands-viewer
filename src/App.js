@@ -7,6 +7,7 @@ import FormControl from '@material-ui/core/FormControl'
 import IconButton from '@material-ui/core/IconButton'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import InputLabel from '@material-ui/core/InputLabel'
+import Link from '@material-ui/core/Link'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
@@ -293,7 +294,7 @@ function App () {
         </AccordionSummary>
         <StyledAccordionDetails>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
-            This site uses <a href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</a> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
+            This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
             All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 24, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
