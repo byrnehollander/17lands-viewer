@@ -1,7 +1,11 @@
 import { useState, useRef } from 'react'
+import Accordion from '@material-ui/core/Accordion'
+import AccordionSummary from '@material-ui/core/AccordionSummary'
+import AccordionDetails from '@material-ui/core/AccordionDetails'
 import Button from '@material-ui/core/Button'
 import FormControl from '@material-ui/core/FormControl'
 import IconButton from '@material-ui/core/IconButton'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import InputLabel from '@material-ui/core/InputLabel'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
 import Tooltip from '@material-ui/core/Tooltip'
@@ -148,6 +152,12 @@ const SelectedRarityIconButton = withStyles({
   }
 })(IconButton)
 
+const StyledAccordionDetails = withStyles({
+  root: {
+    flexDirection: 'column'
+  }
+})(AccordionDetails)
+
 const TypographyShadow = styled(Typography)`
   text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
 `
@@ -273,15 +283,36 @@ function App () {
   return (
     <Container>
       <TypographyShadow variant='h3' gutterBottom>How good is this card?</TypographyShadow>
-      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
-        This site uses <a href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</a> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
-      </Typography>
-      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
-        All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 24, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
-      </Typography>
-      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
-        Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
-      </Typography>
+      <Accordion defaultExpanded style={{ maxWidth: 950 }}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls='panel1a-content'
+          id='panel1a-header'
+        >
+          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400 }}>Learn more about this site</Typography>
+        </AccordionSummary>
+        <StyledAccordionDetails>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+            This site uses <a href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</a> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
+          </Typography>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 24, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
+          </Typography>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+            Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
+          </Typography>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+            Lastly, for reference, here are the win rates by college for 17Lands users (this time, only looking at exactly 2 colors; notably, no decks seem to gain in win rate from adding additional colors):
+            <ol>
+              <li>Silverquill (WB): 58.4%</li>
+              <li>Witherbloom (BG): 53.9%</li>
+              <li>Quandrix (GU): 55.8%</li>
+              <li>Prismari (UR): 53.9%</li>
+              <li>Lorehold (RW): 53.9%</li>
+            </ol>
+          </Typography>
+        </StyledAccordionDetails>
+      </Accordion>
       <OptionsContainer>
         <ButtonContainer>
           <ColorsHeader>
