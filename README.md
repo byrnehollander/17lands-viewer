@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# 17Lands Viewer
+
+## TODOs
+
+1. Process parsedData so every card points to an array with its GIH WR for each college
+2. Re-combine that data with `cardsWithText.json` from `rating-viewer` repo
+3. Reproduce `rating-viewer` UI but for 17Lands data
+4. Design and then build a "Compare" mode
+
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
