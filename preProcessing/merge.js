@@ -18,10 +18,31 @@ for (let i = 0; i < cards.length; i++) {
   }
 }
 
-// console.log(dict)
-
-// TODO: iterate through winRates and add to winRateByCollege array
 for (let i = 0; i < winRates.length; i++) {
+  const { card, gihWR, college } = winRates[i]
+  if (dict[card]) {
+    dict[card].winRateByCollege.push({college, gihWR})
+  }
 }
 
 // print the dictionary
+for (const [_, value] of Object.entries(dict)) {
+  const { name, manaCost, types, colors, cmc, rarity, image, lsvRating, winRateByCollege } = value
+  if (winRateByCollege?.length > 0) {
+    if (winRateByCollege?.length > 1) {
+      winRateByCollege.sort((a, b) => parseFloat(b.gihWR) - parseFloat(a.gihWR))
+    }
+    console.log(`
+    {
+      "name": "${name}",
+      "manaCost": "${manaCost}",
+      "colors": ${JSON.stringify(colors)},
+      "cmc": ${parseInt(cmc)},
+      "rarity": "${rarity}",
+      "image": "${image}",
+      "types": ${JSON.stringify(types)},
+      "rating": ${parseFloat(lsvRating)},
+      "winRates": ${JSON.stringify(winRateByCollege)}
+    },`)
+  }
+}
