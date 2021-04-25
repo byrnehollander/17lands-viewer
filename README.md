@@ -6,7 +6,10 @@
 2. Re-combine that data with `cardsWithText.json` from `rating-viewer` repo
 3. Reproduce `rating-viewer` UI but for 17Lands data
 4. Design and then build a "Compare" mode
+5. See which cards are significantly better in one college vs another
 
+
+Definition: `GIH WR (Games In Hand Win Rate): The win rate of games where this card was drawn at some point (including in the opening hand).`
 
 ---
 
