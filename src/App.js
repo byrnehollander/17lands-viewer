@@ -302,7 +302,7 @@ function App () {
             Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
           </Typography>
           <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400 }}>
-            Lastly, here are the win rates by college for 17Lands users (this time, only looking at exactly 2 colors; notably, no decks seem to gain in average win rate from adding additional colors):
+            Lastly, here are the win rates by college for 17Lands users (this time, only looking at <i>exactly</i> 2 colors; notably, no decks gain in average win rate by adding colors):
             <ol>
               <li><i>Silverquill (WB)</i>: 58.4%</li>
               <li><i>Quandrix (GU)</i>: 55.8%</li>
