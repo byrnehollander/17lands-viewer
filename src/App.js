@@ -273,6 +273,15 @@ function App () {
   return (
     <Container>
       <TypographyShadow variant='h3' gutterBottom>How good is this card?</TypographyShadow>
+      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+        This site uses <a href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</a> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
+      </Typography>
+      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+        All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 24, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
+      </Typography>
+      <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+        Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
+      </Typography>
       <OptionsContainer>
         <ButtonContainer>
           <ColorsHeader>
