@@ -283,13 +283,13 @@ function App () {
   return (
     <Container>
       <TypographyShadow variant='h3' gutterBottom>How good is this card?</TypographyShadow>
-      <Accordion defaultExpanded style={{ maxWidth: 950 }}>
+      <Accordion defaultExpanded style={{ maxWidth: 980 }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls='panel1a-content'
           id='panel1a-header'
         >
-          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400 }}>Learn more about this site</Typography>
+          <Typography variant='h6' style={{ fontWeight: 400 }}>Learn more about this site</Typography>
         </AccordionSummary>
         <StyledAccordionDetails>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
@@ -301,14 +301,14 @@ function App () {
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
             Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
           </Typography>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
-            Lastly, for reference, here are the win rates by college for 17Lands users (this time, only looking at exactly 2 colors; notably, no decks seem to gain in win rate from adding additional colors):
+          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400 }}>
+            Lastly, here are the win rates by college for 17Lands users (this time, only looking at exactly 2 colors; notably, no decks seem to gain in average win rate from adding additional colors):
             <ol>
-              <li>Silverquill (WB): 58.4%</li>
-              <li>Witherbloom (BG): 53.9%</li>
-              <li>Quandrix (GU): 55.8%</li>
-              <li>Prismari (UR): 53.9%</li>
-              <li>Lorehold (RW): 53.9%</li>
+              <li><i>Silverquill (WB)</i>: 58.4%</li>
+              <li><i>Quandrix (GU)</i>: 55.8%</li>
+              <li><i>Witherbloom (BG)</i>: 53.9%</li>
+              <li><i>Prismari (UR)</i>: 53.9%</li>
+              <li><i>Lorehold (RW)</i>: 53.9%</li>
             </ol>
           </Typography>
         </StyledAccordionDetails>
