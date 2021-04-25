@@ -11,6 +11,8 @@
 
 Definition: `GIH WR (Games In Hand Win Rate): The win rate of games where this card was drawn at some point (including in the opening hand).`
 
+Note: Splashes are included, so Witherbloom also includes GBw and GBu decks, for example.
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
