@@ -263,7 +263,7 @@ function App () {
     const arr = []
     for (let i = 0; i < winRates.length; i++) {
       arr.push(
-        <div key={i} style={{ fontSize: fontSize }}>
+        <div key={i} style={{ fontSize: fontSize, marginBottom: 7 }}>
           <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count} games)
         </div>
       )
