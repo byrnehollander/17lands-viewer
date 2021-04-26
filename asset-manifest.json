@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/17lands-viewer/static/css/main.6e55d6b9.chunk.css",
-    "main.js": "/17lands-viewer/static/js/main.c23f6c6c.chunk.js",
-    "main.js.map": "/17lands-viewer/static/js/main.c23f6c6c.chunk.js.map",
+    "main.css": "/17lands-viewer/static/css/main.17d7873c.chunk.css",
+    "main.js": "/17lands-viewer/static/js/main.0f10c049.chunk.js",
+    "main.js.map": "/17lands-viewer/static/js/main.0f10c049.chunk.js.map",
     "runtime-main.js": "/17lands-viewer/static/js/runtime-main.5b99d323.js",
     "runtime-main.js.map": "/17lands-viewer/static/js/runtime-main.5b99d323.js.map",
     "static/js/2.448472bd.chunk.js": "/17lands-viewer/static/js/2.448472bd.chunk.js",
     "static/js/2.448472bd.chunk.js.map": "/17lands-viewer/static/js/2.448472bd.chunk.js.map",
     "index.html": "/17lands-viewer/index.html",
-    "static/css/main.6e55d6b9.chunk.css.map": "/17lands-viewer/static/css/main.6e55d6b9.chunk.css.map",
+    "static/css/main.17d7873c.chunk.css.map": "/17lands-viewer/static/css/main.17d7873c.chunk.css.map",
     "static/js/2.448472bd.chunk.js.LICENSE.txt": "/17lands-viewer/static/js/2.448472bd.chunk.js.LICENSE.txt",
     "static/media/Rune.css": "/17lands-viewer/static/media/Numbers-Regular.d61bebca.otf",
     "static/media/black.7f78a23f.svg": "/17lands-viewer/static/media/black.7f78a23f.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5b99d323.js",
     "static/js/2.448472bd.chunk.js",
-    "static/css/main.6e55d6b9.chunk.css",
-    "static/js/main.c23f6c6c.chunk.js"
+    "static/css/main.17d7873c.chunk.css",
+    "static/js/main.0f10c049.chunk.js"
   ]
 }
