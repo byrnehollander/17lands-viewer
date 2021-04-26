@@ -321,7 +321,7 @@ function App () {
             All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 26, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
+            Also note that the collective average win rate from 17Lands users is <b>54.5%</b> (in Strixhaven Premier Draft).
           </Typography>
           <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             Lastly, here are the win rates by college for 17Lands users (this time, only looking at <i>exactly</i> 2 colors; notably, no decks gain in average win rate by adding colors):
