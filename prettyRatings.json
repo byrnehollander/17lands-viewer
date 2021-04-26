@@ -14,24 +14,34 @@
     "rating": 3,
     "winRates": [
       {
-        "college": "Prismari",
-        "gihWR": "56.1%"
-      },
-      {
         "college": "Quandrix",
-        "gihWR": "56.1%"
+        "gihWR": "56.1%",
+        "count": "7160"
       },
       {
         "college": "Silverquill",
-        "gihWR": "55.9%"
+        "gihWR": "55.9%",
+        "count": "4174"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "55.8%",
+        "count": "7390"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.4%"
+        "gihWR": "55.6%",
+        "count": "3996"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "36153"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.6%"
+        "gihWR": "55.0%",
+        "count": "4828"
       }
     ]
   },
@@ -51,23 +61,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "64.7%"
+        "gihWR": "64.4%",
+        "count": "9001"
       },
       {
         "college": "Quandrix",
-        "gihWR": "63.1%"
+        "gihWR": "62.9%",
+        "count": "4027"
       },
       {
         "college": "Lorehold",
-        "gihWR": "62.4%"
+        "gihWR": "62.7%",
+        "count": "5654"
       },
       {
         "college": "Prismari",
-        "gihWR": "62.2%"
+        "gihWR": "62.4%",
+        "count": "4116"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "62.3%",
+        "count": "29688"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "57.5%"
+        "gihWR": "57.8%",
+        "count": "3590"
       }
     ]
   },
@@ -87,23 +107,33 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "55.6%"
+        "gihWR": "55.0%",
+        "count": "2946"
       },
       {
         "college": "Silverquill",
-        "gihWR": "55.4%"
+        "gihWR": "54.5%",
+        "count": "3307"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.9%"
+        "gihWR": "53.1%",
+        "count": "4093"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.0%",
+        "count": "21549"
       },
       {
         "college": "Quandrix",
-        "gihWR": "52.5%"
+        "gihWR": "52.7%",
+        "count": "4772"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.0%"
+        "gihWR": "49.8%",
+        "count": "3283"
       }
     ]
   },
@@ -123,23 +153,33 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "56.4%"
+        "gihWR": "56.0%",
+        "count": "2407"
       },
       {
         "college": "Quandrix",
-        "gihWR": "55.8%"
+        "gihWR": "55.7%",
+        "count": "3462"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.2%",
+        "count": "17982"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.2%"
+        "gihWR": "55.2%",
+        "count": "3324"
       },
       {
         "college": "Silverquill",
-        "gihWR": "55.0%"
+        "gihWR": "54.7%",
+        "count": "2830"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.9%"
+        "gihWR": "53.4%",
+        "count": "3096"
       }
     ]
   },
@@ -158,60 +198,34 @@
     "rating": 3.5,
     "winRates": [
       {
-        "college": "Lorehold",
-        "gihWR": "69.4%"
-      },
-      {
         "college": "Prismari",
-        "gihWR": "69.4%"
+        "gihWR": "69.5%",
+        "count": "915"
       },
       {
         "college": "Quandrix",
-        "gihWR": "68.6%"
+        "gihWR": "69.0%",
+        "count": "995"
       },
-      {
-        "college": "Silverquill",
-        "gihWR": "68.4%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "63.8%"
-      }
-    ]
-  },
-  {
-    "name": "Wandering Archaic // Explore the Vastlands",
-    "manaCost": "{3}",
-    "colors": [
-      "C"
-    ],
-    "cmc": 3,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/1/8/18a2bdc8-b705-4eb5-b3a5-ff2e2ab8f312.jpg?1617901976",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 3.5,
-    "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "61.5%"
+        "gihWR": "68.8%",
+        "count": "407"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "68.3%",
+        "count": "3908"
       },
       {
         "college": "Silverquill",
-        "gihWR": "56.9%"
+        "gihWR": "68.1%",
+        "count": "433"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.6%"
-      },
-      {
-        "college": "Quandrix",
-        "gihWR": "55.2%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "55.0%"
+        "gihWR": "63.9%",
+        "count": "574"
       }
     ]
   },
@@ -231,11 +245,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.1%"
+        "gihWR": "51.1%",
+        "count": "1311"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.3%",
+        "count": "3803"
       },
       {
         "college": "Lorehold",
-        "gihWR": "49.8%"
+        "gihWR": "49.6%",
+        "count": "2009"
       }
     ]
   },
@@ -255,11 +276,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.4%"
+        "gihWR": "55.6%",
+        "count": "5276"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.5%",
+        "count": "9402"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.4%"
+        "gihWR": "51.7%",
+        "count": "3616"
       }
     ]
   },
@@ -279,11 +307,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.8%"
+        "gihWR": "52.2%",
+        "count": "1831"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.3%",
+        "count": "3265"
       },
       {
         "college": "Lorehold",
-        "gihWR": "50.9%"
+        "gihWR": "50.4%",
+        "count": "1165"
       }
     ]
   },
@@ -303,11 +338,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.7%"
+        "gihWR": "60.8%",
+        "count": "15557"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "30962"
       },
       {
         "college": "Lorehold",
-        "gihWR": "56.2%"
+        "gihWR": "56.5%",
+        "count": "12082"
       }
     ]
   },
@@ -327,11 +369,39 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "53.6%"
+        "gihWR": "53.7%",
+        "count": "3967"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.3%",
+        "count": "8316"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.5%"
+        "gihWR": "51.4%",
+        "count": "3441"
+      }
+    ]
+  },
+  {
+    "name": "Detention Vortex",
+    "manaCost": "{W}",
+    "colors": [
+      "W"
+    ],
+    "cmc": 1,
+    "rarity": "uncommon",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/4/54ebe581-be17-415a-a160-28d8f4e95636.jpg?1617315428",
+    "types": [
+      "Enchantment"
+    ],
+    "rating": 0,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "43.4%",
+        "count": "366"
       }
     ]
   },
@@ -351,11 +421,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "53.7%"
+        "gihWR": "53.5%",
+        "count": "4350"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.6%",
+        "count": "6730"
       },
       {
         "college": "Lorehold",
-        "gihWR": "47.2%"
+        "gihWR": "46.9%",
+        "count": "1826"
       }
     ]
   },
@@ -375,11 +452,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.0%"
+        "gihWR": "55.1%",
+        "count": "11097"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.8%",
+        "count": "20252"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.3%"
+        "gihWR": "54.5%",
+        "count": "7899"
       }
     ]
   },
@@ -399,11 +483,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "64.4%"
+        "gihWR": "64.9%",
+        "count": "2055"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.0%",
+        "count": "3967"
       },
       {
         "college": "Lorehold",
-        "gihWR": "60.9%"
+        "gihWR": "61.5%",
+        "count": "1388"
       }
     ]
   },
@@ -423,11 +514,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.6%"
+        "gihWR": "54.5%",
+        "count": "6450"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.3%",
+        "count": "15654"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.4%"
+        "gihWR": "52.2%",
+        "count": "6664"
       }
     ]
   },
@@ -447,11 +545,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.3%"
+        "gihWR": "59.1%",
+        "count": "14612"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.0%",
+        "count": "25367"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.5%"
+        "gihWR": "54.3%",
+        "count": "8865"
       }
     ]
   },
@@ -471,11 +576,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "65.6%"
+        "gihWR": "64.9%",
+        "count": "852"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.5%",
+        "count": "1850"
       },
       {
         "college": "Lorehold",
-        "gihWR": "61.2%"
+        "gihWR": "60.1%",
+        "count": "709"
       }
     ]
   },
@@ -495,11 +607,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.8%"
+        "gihWR": "55.6%",
+        "count": "15360"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.3%",
+        "count": "33696"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.1%"
+        "gihWR": "55.1%",
+        "count": "14761"
       }
     ]
   },
@@ -519,11 +638,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.1%"
+        "gihWR": "55.1%",
+        "count": "8555"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.2%",
+        "count": "18538"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.9%"
+        "gihWR": "51.7%",
+        "count": "7992"
       }
     ]
   },
@@ -543,11 +669,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "63.4%"
+        "gihWR": "63.1%",
+        "count": "8137"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.9%",
+        "count": "16166"
       },
       {
         "college": "Lorehold",
-        "gihWR": "60.6%"
+        "gihWR": "60.8%",
+        "count": "6122"
       }
     ]
   },
@@ -567,11 +700,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "52.2%"
+        "gihWR": "52.3%",
+        "count": "1270"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.5%",
+        "count": "3318"
       },
       {
         "college": "Lorehold",
-        "gihWR": "50.7%"
+        "gihWR": "49.7%",
+        "count": "1509"
       }
     ]
   },
@@ -591,11 +731,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "53.4%"
+        "gihWR": "53.5%",
+        "count": "2232"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.6%",
+        "count": "3707"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.5%"
+        "gihWR": "51.6%",
+        "count": "1253"
       }
     ]
   },
@@ -615,11 +762,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "65.5%"
+        "gihWR": "65.6%",
+        "count": "2160"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.4%",
+        "count": "4572"
       },
       {
         "college": "Lorehold",
-        "gihWR": "63.0%"
+        "gihWR": "63.3%",
+        "count": "1372"
       }
     ]
   },
@@ -639,11 +793,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.1%"
+        "gihWR": "53.7%",
+        "count": "12366"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.7%",
+        "count": "16802"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.6%"
+        "gihWR": "51.4%",
+        "count": "3697"
       }
     ]
   },
@@ -663,11 +824,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.1%"
+        "gihWR": "51.0%",
+        "count": "2272"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.4%",
+        "count": "2974"
       },
       {
         "college": "Silverquill",
-        "gihWR": "49.4%"
+        "gihWR": "49.9%",
+        "count": "519"
       }
     ]
   },
@@ -687,11 +855,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.5%"
+        "gihWR": "54.7%",
+        "count": "6585"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.0%",
+        "count": "15501"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.2%"
+        "gihWR": "52.4%",
+        "count": "7890"
       }
     ]
   },
@@ -711,11 +886,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "56.4%"
+        "gihWR": "55.4%",
+        "count": "650"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.8%",
+        "count": "1830"
       },
       {
         "college": "Silverquill",
-        "gihWR": "53.0%"
+        "gihWR": "52.7%",
+        "count": "1052"
       }
     ]
   },
@@ -735,11 +917,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.7%"
+        "gihWR": "56.9%",
+        "count": "9966"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "19462"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.9%"
+        "gihWR": "54.9%",
+        "count": "7650"
       }
     ]
   },
@@ -759,11 +948,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.8%"
+        "gihWR": "59.7%",
+        "count": "6817"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.8%",
+        "count": "12280"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.5%"
+        "gihWR": "55.7%",
+        "count": "4530"
       }
     ]
   },
@@ -783,11 +979,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.3%"
+        "gihWR": "57.4%",
+        "count": "11941"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.1%",
+        "count": "29813"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.0%"
+        "gihWR": "55.0%",
+        "count": "13019"
       }
     ]
   },
@@ -807,11 +1010,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.7%"
+        "gihWR": "57.0%",
+        "count": "2102"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "5170"
       },
       {
         "college": "Prismari",
-        "gihWR": "54.5%"
+        "gihWR": "54.4%",
+        "count": "2193"
       }
     ]
   },
@@ -832,11 +1042,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.4%"
+        "gihWR": "54.2%",
+        "count": "4750"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.5%"
+        "gihWR": "53.5%",
+        "count": "6418"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.1%",
+        "count": "12487"
       }
     ]
   },
@@ -856,11 +1073,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "59.5%"
+        "gihWR": "59.3%",
+        "count": "18172"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "44346"
       },
       {
         "college": "Prismari",
-        "gihWR": "58.7%"
+        "gihWR": "58.6%",
+        "count": "18237"
       }
     ]
   },
@@ -880,11 +1104,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.1%"
+        "gihWR": "56.3%",
+        "count": "4133"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.9%"
+        "gihWR": "55.8%",
+        "count": "7104"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "13530"
       }
     ]
   },
@@ -904,11 +1135,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.0%"
+        "gihWR": "60.8%",
+        "count": "7824"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.1%",
+        "count": "19009"
       },
       {
         "college": "Prismari",
-        "gihWR": "57.9%"
+        "gihWR": "58.0%",
+        "count": "7775"
       }
     ]
   },
@@ -928,11 +1166,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.1%"
+        "gihWR": "60.6%",
+        "count": "2283"
       },
       {
         "college": "Prismari",
-        "gihWR": "59.8%"
+        "gihWR": "59.9%",
+        "count": "2382"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.7%",
+        "count": "5675"
       }
     ]
   },
@@ -952,11 +1197,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.7%"
+        "gihWR": "57.6%",
+        "count": "18606"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.4%",
+        "count": "43500"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.0%"
+        "gihWR": "55.8%",
+        "count": "18569"
       }
     ]
   },
@@ -976,11 +1228,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.1%"
+        "gihWR": "56.6%",
+        "count": "1598"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.6%",
+        "count": "3776"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.8%"
+        "gihWR": "54.1%",
+        "count": "1415"
       }
     ]
   },
@@ -1000,11 +1259,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.7%"
+        "gihWR": "56.6%",
+        "count": "8223"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "16063"
       },
       {
         "college": "Prismari",
-        "gihWR": "54.8%"
+        "gihWR": "54.6%",
+        "count": "5207"
       }
     ]
   },
@@ -1024,11 +1290,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.2%"
+        "gihWR": "58.2%",
+        "count": "4940"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.2%",
+        "count": "12381"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.6%"
+        "gihWR": "55.4%",
+        "count": "5631"
       }
     ]
   },
@@ -1047,12 +1320,19 @@
     "rating": 1,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "55.8%",
+        "count": "1542"
+      },
+      {
         "college": "Prismari",
-        "gihWR": "55.9%"
+        "gihWR": "55.3%",
+        "count": "568"
       },
       {
         "college": "Quandrix",
-        "gihWR": "54.3%"
+        "gihWR": "55.3%",
+        "count": "591"
       }
     ]
   },
@@ -1071,16 +1351,24 @@
     "rating": 4,
     "winRates": [
       {
-        "college": "Prismari",
-        "gihWR": "65.9%"
+        "college": "Quandrix",
+        "gihWR": "65.7%",
+        "count": "2294"
       },
       {
-        "college": "Quandrix",
-        "gihWR": "65.2%"
+        "college": "Prismari",
+        "gihWR": "65.4%",
+        "count": "2240"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "65.3%",
+        "count": "5973"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "61.9%"
+        "gihWR": "62.2%",
+        "count": "254"
       }
     ]
   },
@@ -1100,11 +1388,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.7%"
+        "gihWR": "56.5%",
+        "count": "11980"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "32575"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.2%"
+        "gihWR": "55.3%",
+        "count": "14674"
       }
     ]
   },
@@ -1124,11 +1419,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.1%"
+        "gihWR": "54.3%",
+        "count": "2519"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.0%",
+        "count": "6491"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.8%"
+        "gihWR": "52.7%",
+        "count": "3018"
       }
     ]
   },
@@ -1148,11 +1450,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "50.4%"
+        "gihWR": "50.3%",
+        "count": "745"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.1%"
+        "gihWR": "49.9%",
+        "count": "813"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.6%",
+        "count": "1755"
       }
     ]
   },
@@ -1172,11 +1481,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "54.1%"
+        "gihWR": "53.8%",
+        "count": "13408"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.7%",
+        "count": "29815"
       },
       {
         "college": "Quandrix",
-        "gihWR": "53.6%"
+        "gihWR": "53.7%",
+        "count": "11227"
       }
     ]
   },
@@ -1196,11 +1512,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.1%"
+        "gihWR": "58.1%",
+        "count": "5657"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.5%",
+        "count": "14010"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.0%"
+        "gihWR": "55.9%",
+        "count": "6304"
       }
     ]
   },
@@ -1220,11 +1543,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.5%"
+        "gihWR": "57.3%",
+        "count": "328"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.2%",
+        "count": "1132"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.3%"
+        "gihWR": "52.3%",
+        "count": "545"
       }
     ]
   },
@@ -1244,11 +1574,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "52.3%"
+        "gihWR": "51.9%",
+        "count": "5971"
       },
       {
         "college": "Quandrix",
-        "gihWR": "52.1%"
+        "gihWR": "51.9%",
+        "count": "4104"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.3%",
+        "count": "11725"
       }
     ]
   },
@@ -1268,11 +1605,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "51.3%"
+        "gihWR": "51.9%",
+        "count": "1881"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.9%",
+        "count": "3158"
       },
       {
         "college": "Quandrix",
-        "gihWR": "49.2%"
+        "gihWR": "49.7%",
+        "count": "986"
       }
     ]
   },
@@ -1292,11 +1636,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "59.9%"
+        "gihWR": "59.1%",
+        "count": "602"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.7%",
+        "count": "1738"
       },
       {
         "college": "Prismari",
-        "gihWR": "54.4%"
+        "gihWR": "54.8%",
+        "count": "624"
       }
     ]
   },
@@ -1316,11 +1667,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "63.8%"
+        "gihWR": "63.8%",
+        "count": "2724"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.5%",
+        "count": "6368"
       },
       {
         "college": "Prismari",
-        "gihWR": "63.4%"
+        "gihWR": "63.4%",
+        "count": "2778"
       }
     ]
   },
@@ -1340,11 +1698,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "55.9%"
+        "gihWR": "56.5%",
+        "count": "1329"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "3457"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.2%"
+        "gihWR": "54.8%",
+        "count": "1468"
       }
     ]
   },
@@ -1364,11 +1729,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "55.2%"
+        "gihWR": "55.0%",
+        "count": "11587"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "18228"
       },
       {
         "college": "Prismari",
-        "gihWR": "51.3%"
+        "gihWR": "50.9%",
+        "count": "4071"
       }
     ]
   },
@@ -1388,11 +1760,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.1%"
+        "gihWR": "53.2%",
+        "count": "8756"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.2%",
+        "count": "19983"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.0%"
+        "gihWR": "52.1%",
+        "count": "8824"
       }
     ]
   },
@@ -1412,11 +1791,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.8%"
+        "gihWR": "56.5%",
+        "count": "5287"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.5%",
+        "count": "9741"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.0%"
+        "gihWR": "50.0%",
+        "count": "3122"
       }
     ]
   },
@@ -1436,11 +1822,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.7%"
+        "gihWR": "55.6%",
+        "count": "15546"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.3%",
+        "count": "22573"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.0%"
+        "gihWR": "48.0%",
+        "count": "5567"
       }
     ]
   },
@@ -1460,11 +1853,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.4%"
+        "gihWR": "60.3%",
+        "count": "1475"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.1%",
+        "count": "3710"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.4%"
+        "gihWR": "56.5%",
+        "count": "1459"
       }
     ]
   },
@@ -1484,11 +1884,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "57.5%"
+        "gihWR": "57.8%",
+        "count": "3381"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.1%",
+        "count": "13986"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.9%"
+        "gihWR": "55.8%",
+        "count": "9298"
       }
     ]
   },
@@ -1508,11 +1915,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.1%"
+        "gihWR": "58.0%",
+        "count": "1459"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.1%",
+        "count": "3478"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.4%"
+        "gihWR": "52.6%",
+        "count": "1646"
       }
     ]
   },
@@ -1532,11 +1946,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.7%"
+        "gihWR": "51.9%",
+        "count": "3111"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.2%",
+        "count": "7641"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.4%"
+        "gihWR": "51.0%",
+        "count": "3768"
       }
     ]
   },
@@ -1556,11 +1977,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.1%"
+        "gihWR": "56.4%",
+        "count": "6073"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "9645"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.4%"
+        "gihWR": "50.4%",
+        "count": "3035"
       }
     ]
   },
@@ -1580,11 +2008,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "61.9%"
+        "gihWR": "61.5%",
+        "count": "6192"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "11945"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.4%"
+        "gihWR": "54.6%",
+        "count": "4777"
       }
     ]
   },
@@ -1604,15 +2039,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "62.3%"
+        "gihWR": "61.8%",
+        "count": "377"
       },
       {
         "college": "Silverquill",
-        "gihWR": "61.4%"
+        "gihWR": "61.2%",
+        "count": "6244"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.7%",
+        "count": "14990"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.5%"
+        "gihWR": "56.6%",
+        "count": "6211"
       }
     ]
   },
@@ -1632,11 +2075,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.5%"
+        "gihWR": "54.2%",
+        "count": "945"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.5%",
+        "count": "2316"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.2%"
+        "gihWR": "52.9%",
+        "count": "1004"
       }
     ]
   },
@@ -1656,11 +2106,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.8%"
+        "gihWR": "59.5%",
+        "count": "8186"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.1%",
+        "count": "28645"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.3%"
+        "gihWR": "56.5%",
+        "count": "17006"
       }
     ]
   },
@@ -1680,11 +2137,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.0%"
+        "gihWR": "59.0%",
+        "count": "13170"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.8%",
+        "count": "26660"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.9%"
+        "gihWR": "54.9%",
+        "count": "10807"
       }
     ]
   },
@@ -1704,11 +2168,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "57.3%"
+        "gihWR": "57.2%",
+        "count": "11529"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.3%",
+        "count": "23052"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.7%"
+        "gihWR": "51.8%",
+        "count": "9689"
       }
     ]
   },
@@ -1728,11 +2199,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.3%"
+        "gihWR": "56.4%",
+        "count": "3521"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "7922"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.4%"
+        "gihWR": "52.2%",
+        "count": "3632"
       }
     ]
   },
@@ -1752,11 +2230,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "57.2%"
+        "gihWR": "57.1%",
+        "count": "12679"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.4%",
+        "count": "27911"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.3%"
+        "gihWR": "54.3%",
+        "count": "12136"
       }
     ]
   },
@@ -1776,11 +2261,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.6%"
+        "gihWR": "54.3%",
+        "count": "2165"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.1%",
+        "count": "6777"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.7%"
+        "gihWR": "54.0%",
+        "count": "3724"
       }
     ]
   },
@@ -1800,11 +2292,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "50.2%"
+        "gihWR": "49.7%",
+        "count": "1462"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "47.1%",
+        "count": "4891"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "46.2%"
+        "gihWR": "46.0%",
+        "count": "3042"
       }
     ]
   },
@@ -1824,11 +2323,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "50.0%"
+        "gihWR": "49.6%",
+        "count": "675"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "48.4%",
+        "count": "1599"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "47.3%"
+        "gihWR": "46.7%",
+        "count": "691"
       }
     ]
   },
@@ -1848,11 +2354,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "51.4%"
+        "gihWR": "51.3%",
+        "count": "3064"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.4%",
+        "count": "4537"
       },
       {
         "college": "Silverquill",
-        "gihWR": "48.2%"
+        "gihWR": "47.6%",
+        "count": "936"
       }
     ]
   },
@@ -1872,11 +2385,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "63.3%"
+        "gihWR": "63.2%",
+        "count": "869"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "62.2%",
+        "count": "2050"
       },
       {
         "college": "Silverquill",
-        "gihWR": "61.4%"
+        "gihWR": "61.7%",
+        "count": "619"
       }
     ]
   },
@@ -1896,11 +2416,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.4%"
+        "gihWR": "56.0%",
+        "count": "5719"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "8753"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.6%"
+        "gihWR": "50.6%",
+        "count": "2478"
       }
     ]
   },
@@ -1920,11 +2447,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.9%"
+        "gihWR": "51.8%",
+        "count": "7683"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.6%",
+        "count": "11080"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "45.3%"
+        "gihWR": "44.6%",
+        "count": "2597"
       }
     ]
   },
@@ -1944,11 +2478,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "66.9%"
+        "gihWR": "65.8%",
+        "count": "1511"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.2%",
+        "count": "4427"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "60.8%"
+        "gihWR": "61.5%",
+        "count": "2007"
       }
     ]
   },
@@ -1968,11 +2509,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.3%"
+        "gihWR": "56.5%",
+        "count": "7909"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.8%",
+        "count": "18915"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.8%"
+        "gihWR": "52.7%",
+        "count": "8947"
       }
     ]
   },
@@ -1992,11 +2540,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.9%"
+        "gihWR": "56.5%",
+        "count": "4699"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.2%",
+        "count": "7754"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.8%"
+        "gihWR": "54.2%",
+        "count": "2403"
       }
     ]
   },
@@ -2016,11 +2571,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "57.7%"
+        "gihWR": "57.9%",
+        "count": "5329"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.1%",
+        "count": "9976"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.5%"
+        "gihWR": "52.3%",
+        "count": "3635"
       }
     ]
   },
@@ -2040,11 +2602,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.7%"
+        "gihWR": "55.7%",
+        "count": "8133"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.7%",
+        "count": "20327"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.1%"
+        "gihWR": "51.0%",
+        "count": "10731"
       }
     ]
   },
@@ -2064,11 +2633,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "54.5%"
+        "gihWR": "54.4%",
+        "count": "5797"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.6%",
+        "count": "11350"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.8%"
+        "gihWR": "52.8%",
+        "count": "3557"
       }
     ]
   },
@@ -2088,11 +2664,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "53.0%"
+        "gihWR": "52.8%",
+        "count": "4616"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.1%",
+        "count": "9793"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.6%"
+        "gihWR": "51.4%",
+        "count": "3522"
       }
     ]
   },
@@ -2112,11 +2695,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.9%"
+        "gihWR": "52.1%",
+        "count": "9837"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.6%",
+        "count": "12961"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.6%"
+        "gihWR": "50.7%",
+        "count": "2341"
       }
     ]
   },
@@ -2136,11 +2726,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "56.7%"
+        "gihWR": "56.3%",
+        "count": "1648"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.5%"
+        "gihWR": "56.2%",
+        "count": "1983"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.9%",
+        "count": "4175"
       }
     ]
   },
@@ -2160,11 +2757,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.2%"
+        "gihWR": "61.9%",
+        "count": "1389"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.5%",
+        "count": "2502"
       },
       {
         "college": "Lorehold",
-        "gihWR": "57.9%"
+        "gihWR": "58.3%",
+        "count": "487"
       }
     ]
   },
@@ -2184,11 +2788,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.5%"
+        "gihWR": "62.4%",
+        "count": "2268"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.5%",
+        "count": "3558"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.9%"
+        "gihWR": "52.7%",
+        "count": "609"
       }
     ]
   },
@@ -2208,11 +2819,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "58.0%"
+        "gihWR": "57.8%",
+        "count": "1281"
       },
       {
         "college": "Prismari",
-        "gihWR": "57.6%"
+        "gihWR": "57.3%",
+        "count": "2410"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.1%",
+        "count": "4641"
       }
     ]
   },
@@ -2232,11 +2850,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "54.4%"
+        "gihWR": "54.7%",
+        "count": "9502"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.6%",
+        "count": "19365"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.5%"
+        "gihWR": "53.2%",
+        "count": "7754"
       }
     ]
   },
@@ -2256,15 +2881,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.8%"
+        "gihWR": "58.0%",
+        "count": "816"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.1%"
+        "gihWR": "56.1%",
+        "count": "6412"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.0%",
+        "count": "10811"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.5%"
+        "gihWR": "52.1%",
+        "count": "868"
       }
     ]
   },
@@ -2284,11 +2917,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "51.0%"
+        "gihWR": "50.7%",
+        "count": "1655"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "48.6%",
+        "count": "3685"
       },
       {
         "college": "Lorehold",
-        "gihWR": "47.8%"
+        "gihWR": "47.4%",
+        "count": "1487"
       }
     ]
   },
@@ -2308,11 +2948,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.0%"
+        "gihWR": "50.6%",
+        "count": "7795"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.1%",
+        "count": "11268"
       },
       {
         "college": "Prismari",
-        "gihWR": "49.7%"
+        "gihWR": "49.6%",
+        "count": "2554"
       }
     ]
   },
@@ -2332,11 +2979,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "48.4%"
+        "gihWR": "48.3%",
+        "count": "4594"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "47.8%",
+        "count": "6232"
       },
       {
         "college": "Lorehold",
-        "gihWR": "44.7%"
+        "gihWR": "44.5%",
+        "count": "920"
       }
     ]
   },
@@ -2356,11 +3010,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "53.1%"
+        "gihWR": "53.5%",
+        "count": "1165"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.6%",
+        "count": "1717"
       },
       {
         "college": "Prismari",
-        "gihWR": "46.1%"
+        "gihWR": "45.4%",
+        "count": "458"
       }
     ]
   },
@@ -2380,19 +3041,28 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.9%"
+        "gihWR": "58.4%",
+        "count": "1278"
       },
       {
         "college": "Silverquill",
-        "gihWR": "58.8%"
+        "gihWR": "58.1%",
+        "count": "313"
       },
       {
         "college": "Prismari",
-        "gihWR": "58.1%"
+        "gihWR": "58.0%",
+        "count": "23060"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.6%",
+        "count": "47007"
       },
       {
         "college": "Lorehold",
-        "gihWR": "57.4%"
+        "gihWR": "57.5%",
+        "count": "14236"
       }
     ]
   },
@@ -2412,15 +3082,28 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.5%"
+        "gihWR": "62.3%",
+        "count": "9128"
       },
       {
-        "college": "Quandrix",
-        "gihWR": "62.1%"
+        "college": "Overall",
+        "gihWR": "61.7%",
+        "count": "19191"
       },
       {
         "college": "Lorehold",
-        "gihWR": "61.5%"
+        "gihWR": "61.4%",
+        "count": "5749"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "60.9%",
+        "count": "647"
+      },
+      {
+        "college": "Silverquill",
+        "gihWR": "60.3%",
+        "count": "209"
       }
     ]
   },
@@ -2440,11 +3123,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "54.7%"
+        "gihWR": "53.5%",
+        "count": "389"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.4%",
+        "count": "1087"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.9%"
+        "gihWR": "51.5%",
+        "count": "495"
       }
     ]
   },
@@ -2464,11 +3154,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "53.9%"
+        "gihWR": "53.9%",
+        "count": "8986"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.3%",
+        "count": "24888"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.0%"
+        "gihWR": "53.2%",
+        "count": "13432"
       }
     ]
   },
@@ -2488,11 +3185,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.2%"
+        "gihWR": "52.0%",
+        "count": "344"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.3%",
+        "count": "789"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.3%"
+        "gihWR": "50.8%",
+        "count": "327"
       }
     ]
   },
@@ -2512,11 +3216,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.3%"
+        "gihWR": "56.1%",
+        "count": "17347"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.0%",
+        "count": "30241"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.5%"
+        "gihWR": "54.5%",
+        "count": "8949"
       }
     ]
   },
@@ -2536,11 +3247,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "52.0%"
+        "gihWR": "51.9%",
+        "count": "13235"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.6%",
+        "count": "23421"
       },
       {
         "college": "Lorehold",
-        "gihWR": "50.5%"
+        "gihWR": "50.5%",
+        "count": "6066"
       }
     ]
   },
@@ -2559,12 +3277,24 @@
     "rating": 4,
     "winRates": [
       {
+        "college": "Quandrix",
+        "gihWR": "61.1%",
+        "count": "208"
+      },
+      {
         "college": "Lorehold",
-        "gihWR": "59.4%"
+        "gihWR": "59.0%",
+        "count": "1448"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.4%",
+        "count": "4619"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.7%"
+        "gihWR": "55.5%",
+        "count": "1996"
       }
     ]
   },
@@ -2583,12 +3313,24 @@
     "rating": 1.5,
     "winRates": [
       {
+        "college": "Quandrix",
+        "gihWR": "59.6%",
+        "count": "213"
+      },
+      {
         "college": "Lorehold",
-        "gihWR": "59.4%"
+        "gihWR": "59.2%",
+        "count": "1202"
       },
       {
         "college": "Prismari",
-        "gihWR": "59.3%"
+        "gihWR": "58.9%",
+        "count": "1676"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "3901"
       }
     ]
   },
@@ -2608,11 +3350,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "53.4%"
+        "gihWR": "53.2%",
+        "count": "5679"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.7%",
+        "count": "8575"
       },
       {
         "college": "Lorehold",
-        "gihWR": "48.5%"
+        "gihWR": "48.7%",
+        "count": "1547"
       }
     ]
   },
@@ -2632,11 +3381,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "52.1%"
+        "gihWR": "52.2%",
+        "count": "3311"
       },
       {
         "college": "Prismari",
-        "gihWR": "51.6%"
+        "gihWR": "51.7%",
+        "count": "3344"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.4%",
+        "count": "7436"
       }
     ]
   },
@@ -2656,11 +3412,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "52.3%"
+        "gihWR": "52.5%",
+        "count": "8412"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.2%"
+        "gihWR": "52.4%",
+        "count": "10114"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.1%",
+        "count": "20718"
       }
     ]
   },
@@ -2680,11 +3443,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "49.9%"
+        "gihWR": "50.4%",
+        "count": "5159"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "48.5%",
+        "count": "7656"
       },
       {
         "college": "Prismari",
-        "gihWR": "44.9%"
+        "gihWR": "44.6%",
+        "count": "1766"
       }
     ]
   },
@@ -2703,12 +3473,19 @@
     "rating": 3,
     "winRates": [
       {
-        "college": "Witherbloom",
-        "gihWR": "50.2%"
+        "college": "Overall",
+        "gihWR": "49.8%",
+        "count": "2769"
       },
       {
         "college": "Quandrix",
-        "gihWR": "49.5%"
+        "gihWR": "49.4%",
+        "count": "1104"
+      },
+      {
+        "college": "Witherbloom",
+        "gihWR": "49.4%",
+        "count": "989"
       }
     ]
   },
@@ -2728,11 +3505,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "59.1%"
+        "gihWR": "58.7%",
+        "count": "818"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.1%",
+        "count": "2067"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.8%"
+        "gihWR": "54.9%",
+        "count": "875"
       }
     ]
   },
@@ -2752,11 +3536,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "52.1%"
+        "gihWR": "52.1%",
+        "count": "13675"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.5%",
+        "count": "20988"
       },
       {
         "college": "Quandrix",
-        "gihWR": "51.1%"
+        "gihWR": "51.4%",
+        "count": "5022"
       }
     ]
   },
@@ -2776,11 +3567,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "55.4%"
+        "gihWR": "55.5%",
+        "count": "3345"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "6892"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.3%"
+        "gihWR": "52.2%",
+        "count": "2761"
       }
     ]
   },
@@ -2800,15 +3598,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.7%"
+        "gihWR": "61.7%",
+        "count": "8866"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.0%",
+        "count": "17519"
       },
       {
         "college": "Prismari",
-        "gihWR": "59.6%"
+        "gihWR": "58.5%",
+        "count": "407"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.6%"
+        "gihWR": "55.3%",
+        "count": "4975"
       }
     ]
   },
@@ -2828,11 +3634,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.5%"
+        "gihWR": "53.9%",
+        "count": "3206"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.6%",
+        "count": "5564"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.6%"
+        "gihWR": "47.8%",
+        "count": "1738"
       }
     ]
   },
@@ -2852,11 +3665,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.5%"
+        "gihWR": "56.3%",
+        "count": "718"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.7%",
+        "count": "1844"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "49.5%"
+        "gihWR": "49.1%",
+        "count": "700"
       }
     ]
   },
@@ -2876,11 +3696,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.7%"
+        "gihWR": "61.4%",
+        "count": "7064"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.5%",
+        "count": "14956"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "57.6%"
+        "gihWR": "57.3%",
+        "count": "5453"
       }
     ]
   },
@@ -2900,11 +3727,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.8%"
+        "gihWR": "62.3%",
+        "count": "2302"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.3%",
+        "count": "4882"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.2%"
+        "gihWR": "56.9%",
+        "count": "1562"
       }
     ]
   },
@@ -2923,8 +3757,19 @@
     "rating": 1.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "50.1%",
+        "count": "621"
+      },
+      {
         "college": "Quandrix",
-        "gihWR": "50.6%"
+        "gihWR": "50.0%",
+        "count": "266"
+      },
+      {
+        "college": "Witherbloom",
+        "gihWR": "49.8%",
+        "count": "201"
       }
     ]
   },
@@ -2944,11 +3789,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "60.8%"
+        "gihWR": "60.9%",
+        "count": "8498"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "15668"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.2%"
+        "gihWR": "54.1%",
+        "count": "3903"
       }
     ]
   },
@@ -2968,11 +3820,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "55.4%"
+        "gihWR": "54.9%",
+        "count": "568"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.8%",
+        "count": "1171"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.3%"
+        "gihWR": "48.1%",
+        "count": "414"
       }
     ]
   },
@@ -2992,11 +3851,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.4%"
+        "gihWR": "57.5%",
+        "count": "18419"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.1%",
+        "count": "35008"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.2%"
+        "gihWR": "53.1%",
+        "count": "9302"
       }
     ]
   },
@@ -3016,11 +3882,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.5%"
+        "gihWR": "58.3%",
+        "count": "822"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.9%"
+        "gihWR": "57.5%",
+        "count": "3121"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "4367"
       }
     ]
   },
@@ -3039,12 +3912,19 @@
     "rating": 4.5,
     "winRates": [
       {
-        "college": "Witherbloom",
-        "gihWR": "62.8%"
+        "college": "Quandrix",
+        "gihWR": "62.6%",
+        "count": "2393"
       },
       {
-        "college": "Quandrix",
-        "gihWR": "62.5%"
+        "college": "Witherbloom",
+        "gihWR": "62.4%",
+        "count": "1990"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "62.1%",
+        "count": "5406"
       }
     ]
   },
@@ -3064,11 +3944,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "52.5%"
+        "gihWR": "52.3%",
+        "count": "5548"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.4%",
+        "count": "7368"
       },
       {
         "college": "Quandrix",
-        "gihWR": "49.8%"
+        "gihWR": "50.2%",
+        "count": "1044"
       }
     ]
   },
@@ -3088,11 +3975,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.5%"
+        "gihWR": "54.5%",
+        "count": "4798"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.4%",
+        "count": "10005"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.4%"
+        "gihWR": "50.4%",
+        "count": "3723"
       }
     ]
   },
@@ -3112,11 +4006,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.1%"
+        "gihWR": "56.0%",
+        "count": "15458"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.7%",
+        "count": "24636"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.5%"
+        "gihWR": "52.1%",
+        "count": "4239"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "48.9%",
+        "count": "229"
       }
     ]
   },
@@ -3136,11 +4042,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "60.2%"
+        "gihWR": "60.1%",
+        "count": "19646"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.8%",
+        "count": "38499"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.9%"
+        "gihWR": "54.9%",
+        "count": "12444"
       }
     ]
   },
@@ -3160,11 +4073,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.8%"
+        "gihWR": "57.9%",
+        "count": "7978"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.8%",
+        "count": "14519"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.0%"
+        "gihWR": "54.7%",
+        "count": "4493"
       }
     ]
   },
@@ -3184,11 +4104,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.4%"
+        "gihWR": "57.8%",
+        "count": "4924"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "13493"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.2%"
+        "gihWR": "54.0%",
+        "count": "6339"
       }
     ]
   },
@@ -3208,11 +4135,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "60.4%"
+        "gihWR": "60.3%",
+        "count": "13430"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.7%",
+        "count": "32590"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "57.5%"
+        "gihWR": "57.4%",
+        "count": "14162"
       }
     ]
   },
@@ -3232,11 +4166,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.7%"
+        "gihWR": "54.6%",
+        "count": "10417"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.2%",
+        "count": "19860"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.5%"
+        "gihWR": "51.7%",
+        "count": "6560"
       }
     ]
   },
@@ -3256,11 +4197,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.1%"
+        "gihWR": "58.0%",
+        "count": "16746"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.5%",
+        "count": "29355"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.6%"
+        "gihWR": "53.7%",
+        "count": "7694"
       }
     ]
   },
@@ -3280,11 +4228,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "48.0%"
+        "gihWR": "48.2%",
+        "count": "2211"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "47.8%",
+        "count": "4624"
       },
       {
         "college": "Quandrix",
-        "gihWR": "47.1%"
+        "gihWR": "47.4%",
+        "count": "1600"
       }
     ]
   },
@@ -3304,11 +4259,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "52.5%"
+        "gihWR": "52.5%",
+        "count": "3316"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.7%",
+        "count": "12206"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.0%"
+        "gihWR": "50.1%",
+        "count": "7333"
       }
     ]
   },
@@ -3328,11 +4290,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "50.4%"
+        "gihWR": "50.8%",
+        "count": "476"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.4%",
+        "count": "978"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.3%"
+        "gihWR": "47.3%",
+        "count": "355"
       }
     ]
   },
@@ -3352,392 +4321,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "49.4%"
-      }
-    ]
-  },
-  {
-    "name": "Augmenter Pugilist // Echoing Equation",
-    "manaCost": "{3}{U}{U}",
-    "colors": [
-      "U"
-    ],
-    "cmc": 5,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/9/d9131fc3-018a-4975-8795-47be3956160d.jpg?1617452954",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Quandrix",
-        "gihWR": "58.8%"
+        "gihWR": "49.8%",
+        "count": "476"
       },
       {
-        "college": "Witherbloom",
-        "gihWR": "55.7%"
-      }
-    ]
-  },
-  {
-    "name": "Blex, Vexing Pest // Search for Blex",
-    "manaCost": "{2}{B}{B}",
-    "colors": [
-      "B"
-    ],
-    "cmc": 4,
-    "rarity": "mythic",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/c/2/c204b7ca-0904-40fa-b20c-92400fae20b8.jpg?1617583842",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Quandrix",
-        "gihWR": "55.4%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "53.7%"
-      }
-    ]
-  },
-  {
-    "name": "Extus, Oriq Overlord // Awaken the Blood Avatar",
-    "manaCost": "{6}{B}{R}",
-    "colors": [
-      "B",
-      "R"
-    ],
-    "cmc": 8,
-    "rarity": "mythic",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/b/a/ba09360a-067e-48a5-bdc5-a19fd066a785.jpg?1617453022",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 4.5,
-    "winRates": [
-      {
-        "college": "Silverquill",
-        "gihWR": "60.2%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "57.1%"
-      }
-    ]
-  },
-  {
-    "name": "Flamescroll Celebrant // Revel in Silence",
-    "manaCost": "{W}{W}",
-    "colors": [
-      "W"
-    ],
-    "cmc": 2,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/0/d/0dba25e3-2b4f-45d4-965f-3834bcb359ee.jpg?1617453074",
-    "types": [
-      "Instant"
-    ],
-    "rating": 3,
-    "winRates": [
-      {
-        "college": "Prismari",
-        "gihWR": "53.3%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "50.2%"
-      }
-    ]
-  },
-  {
-    "name": "Jadzi, Oracle of Arcavios // Journey to the Oracle",
-    "manaCost": "{2}{G}{G}",
-    "colors": [
-      "G"
-    ],
-    "cmc": 4,
-    "rarity": "mythic",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/d/7/d7148d24-373e-4485-860b-c3429c2337f2.jpg?1618163722",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 1,
-    "winRates": [
-      {
-        "college": "Quandrix",
-        "gihWR": "50.1%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "45.7%"
-      }
-    ]
-  },
-  {
-    "name": "Kianne, Dean of Substance // Imbraham, Dean of Theory",
-    "manaCost": "{2}{U}{U}",
-    "colors": [
-      "U"
-    ],
-    "cmc": 4,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/b/8b45dc40-6827-46a7-a9b7-802be698d053.jpg?1617453130",
-    "types": [
-      "Creature"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Quandrix",
-        "gihWR": "56.0%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "54.6%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "51.1%"
-      }
-    ]
-  },
-  {
-    "name": "Mila, Crafty Companion // Lukka, Wayward Bonder",
-    "manaCost": "{4}{R}{R}",
-    "colors": [
-      "R"
-    ],
-    "cmc": 6,
-    "rarity": "mythic",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/e/8e4e0f81-f92b-4a3a-bb29-adcc3de211b4.jpg?1617363020",
-    "types": [
-      "Planeswalker"
-    ],
-    "rating": 3,
-    "winRates": [
-      {
-        "college": "Prismari",
-        "gihWR": "57.3%"
-      },
-      {
-        "college": "Silverquill",
-        "gihWR": "57.2%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "55.4%"
-      }
-    ]
-  },
-  {
-    "name": "Pestilent Cauldron // Restorative Burst",
-    "manaCost": "{3}{G}{G}",
-    "colors": [
-      "G"
-    ],
-    "cmc": 5,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/a/a/aaa1e6be-08cc-4ccc-b2de-3511613e4fd0.jpg?1617612926",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Witherbloom",
-        "gihWR": "49.9%"
-      }
-    ]
-  },
-  {
-    "name": "Plargg, Dean of Chaos // Augusta, Dean of Order",
-    "manaCost": "{2}{W}",
-    "colors": [
-      "W"
-    ],
-    "cmc": 3,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/5/b/5bd9b5cf-f018-48af-a081-995ce8ecc539.jpg?1617453238",
-    "types": [
-      "Creature"
-    ],
-    "rating": 4,
-    "winRates": [
-      {
-        "college": "Lorehold",
-        "gihWR": "57.1%"
-      },
-      {
-        "college": "Silverquill",
-        "gihWR": "56.1%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "55.3%"
-      }
-    ]
-  },
-  {
-    "name": "Rowan, Scholar of Sparks // Will, Scholar of Frost",
-    "manaCost": "{4}{U}",
-    "colors": [
-      "U"
-    ],
-    "cmc": 5,
-    "rarity": "mythic",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/1/8/18c16872-3675-4a4d-962a-2e17ad6f3886.jpg?1618326108",
-    "types": [
-      "Planeswalker"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Quandrix",
-        "gihWR": "64.3%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "56.2%"
-      }
-    ]
-  },
-  {
-    "name": "Selfless Glyphweaver // Deadly Vanity",
-    "manaCost": "{5}{B}{B}{B}",
-    "colors": [
-      "B"
-    ],
-    "cmc": 8,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/9/8982ff88-8595-4363-8cde-6e87fb57a2d8.jpg?1617400731",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Witherbloom",
-        "gihWR": "59.5%"
-      },
-      {
-        "college": "Silverquill",
-        "gihWR": "55.2%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "53.8%"
-      }
-    ]
-  },
-  {
-    "name": "Shaile, Dean of Radiance // Embrose, Dean of Shadow",
-    "manaCost": "{2}{B}{B}",
-    "colors": [
-      "B"
-    ],
-    "cmc": 4,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/9/3/938cee8f-ac2c-49a5-9ff7-1367d0edfabe.jpg?1617453576",
-    "types": [
-      "Creature"
-    ],
-    "rating": 4,
-    "winRates": [
-      {
-        "college": "Silverquill",
-        "gihWR": "63.5%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "60.0%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "57.7%"
-      }
-    ]
-  },
-  {
-    "name": "Torrent Sculptor // Flamethrower Sonata",
-    "manaCost": "{1}{R}",
-    "colors": [
-      "R"
-    ],
-    "cmc": 2,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/7/87463b68-3642-41c7-a11c-67d524759b60.jpg?1617453416",
-    "types": [
-      "Sorcery"
-    ],
-    "rating": 1,
-    "winRates": [
-      {
-        "college": "Prismari",
-        "gihWR": "55.9%"
-      },
-      {
-        "college": "Quandrix",
-        "gihWR": "55.2%"
-      }
-    ]
-  },
-  {
-    "name": "Uvilda, Dean of Perfection // Nassari, Dean of Expression",
-    "manaCost": "{3}{R}{R}",
-    "colors": [
-      "R"
-    ],
-    "cmc": 5,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/8/c/8cfd0887-0c83-4b33-a85e-8b8ec5bf758d.jpg?1617453475",
-    "types": [
-      "Creature"
-    ],
-    "rating": 4,
-    "winRates": [
-      {
-        "college": "Prismari",
-        "gihWR": "55.0%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "52.2%"
-      },
-      {
-        "college": "Quandrix",
-        "gihWR": "50.9%"
-      }
-    ]
-  },
-  {
-    "name": "Valentin, Dean of the Vein // Lisette, Dean of the Root",
-    "manaCost": "{2}{G}{G}",
-    "colors": [
-      "G"
-    ],
-    "cmc": 4,
-    "rarity": "rare",
-    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/back/6/5/65008352-bc7e-40b2-a832-b46813e5dc4c.jpg?1617453527",
-    "types": [
-      "Creature"
-    ],
-    "rating": 3.5,
-    "winRates": [
-      {
-        "college": "Silverquill",
-        "gihWR": "64.4%"
-      },
-      {
-        "college": "Quandrix",
-        "gihWR": "59.9%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "57.8%"
+        "college": "Overall",
+        "gihWR": "48.4%",
+        "count": "925"
       }
     ]
   },
@@ -3758,11 +4348,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.3%"
+        "gihWR": "56.6%",
+        "count": "7657"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.8%",
+        "count": "10375"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "49.5%"
+        "gihWR": "52.0%",
+        "count": "244"
       }
     ]
   },
@@ -3783,11 +4380,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "59.1%"
+        "gihWR": "58.7%",
+        "count": "1033"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.9%",
+        "count": "2020"
       },
       {
         "college": "Quandrix",
-        "gihWR": "56.5%"
+        "gihWR": "55.9%",
+        "count": "431"
       }
     ]
   },
@@ -3808,7 +4412,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.7%"
+        "gihWR": "56.7%",
+        "count": "25590"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.2%",
+        "count": "29863"
       }
     ]
   },
@@ -3829,11 +4439,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "64.0%"
+        "gihWR": "63.8%",
+        "count": "2226"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.2%",
+        "count": "3025"
       },
       {
         "college": "Silverquill",
-        "gihWR": "53.9%"
+        "gihWR": "54.2%",
+        "count": "310"
       }
     ]
   },
@@ -3854,7 +4471,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "53.0%"
+        "gihWR": "53.2%",
+        "count": "21064"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.7%",
+        "count": "23529"
       }
     ]
   },
@@ -3875,7 +4498,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.1%"
+        "gihWR": "61.5%",
+        "count": "1306"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.3%",
+        "count": "1490"
       }
     ]
   },
@@ -3896,15 +4525,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "62.1%"
+        "gihWR": "62.2%",
+        "count": "8847"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.8%",
+        "count": "11565"
       },
       {
         "college": "Lorehold",
-        "gihWR": "56.6%"
+        "gihWR": "57.6%",
+        "count": "354"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.4%"
+        "gihWR": "56.6%",
+        "count": "592"
       }
     ]
   },
@@ -3925,15 +4562,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.1%"
+        "gihWR": "56.0%",
+        "count": "2392"
       },
       {
         "college": "Silverquill",
-        "gihWR": "54.3%"
+        "gihWR": "54.1%",
+        "count": "906"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.3%",
+        "count": "11512"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.5%"
+        "gihWR": "51.9%",
+        "count": "5669"
       }
     ]
   },
@@ -3954,11 +4599,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "57.5%"
+        "gihWR": "57.6%",
+        "count": "11483"
       },
       {
         "college": "Quandrix",
-        "gihWR": "55.0%"
+        "gihWR": "57.6%",
+        "count": "269"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.2%",
+        "count": "14429"
       }
     ]
   },
@@ -3979,7 +4631,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "53.8%"
+        "gihWR": "54.0%",
+        "count": "756"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "1008"
       }
     ]
   },
@@ -4000,7 +4658,13 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "46.3%"
+        "gihWR": "45.9%",
+        "count": "693"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "45.8%",
+        "count": "806"
       }
     ]
   },
@@ -4021,7 +4685,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "52.8%"
+        "gihWR": "52.6%",
+        "count": "1889"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.7%",
+        "count": "2196"
       }
     ]
   },
@@ -4042,7 +4712,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "52.5%"
+        "gihWR": "52.5%",
+        "count": "7455"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.1%",
+        "count": "8585"
       }
     ]
   },
@@ -4063,7 +4739,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "50.7%"
+        "gihWR": "50.9%",
+        "count": "4664"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.6%",
+        "count": "5451"
       }
     ]
   },
@@ -4084,7 +4766,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.5%"
+        "gihWR": "57.6%",
+        "count": "9419"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.1%",
+        "count": "11828"
       }
     ]
   },
@@ -4105,7 +4793,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "51.6%"
+        "gihWR": "51.5%",
+        "count": "8264"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.1%",
+        "count": "9236"
       }
     ]
   },
@@ -4126,7 +4820,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "51.4%"
+        "gihWR": "51.4%",
+        "count": "796"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.2%",
+        "count": "976"
       }
     ]
   },
@@ -4147,15 +4847,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "61.3%"
+        "gihWR": "61.0%",
+        "count": "2293"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.7%",
+        "count": "3342"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.9%"
+        "gihWR": "49.2%",
+        "count": "394"
       },
       {
         "college": "Lorehold",
-        "gihWR": "44.1%"
+        "gihWR": "43.5%",
+        "count": "237"
       }
     ]
   },
@@ -4175,16 +4883,24 @@
     "rating": 1.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "56.5%",
+        "count": "31013"
+      },
+      {
         "college": "Quandrix",
-        "gihWR": "56.8%"
+        "gihWR": "56.5%",
+        "count": "2378"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.6%"
+        "gihWR": "56.4%",
+        "count": "20850"
       },
       {
         "college": "Lorehold",
-        "gihWR": "50.6%"
+        "gihWR": "51.7%",
+        "count": "358"
       }
     ]
   },
@@ -4205,15 +4921,23 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "60.1%"
+        "gihWR": "59.9%",
+        "count": "18705"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.5%",
+        "count": "43494"
       },
       {
         "college": "Quandrix",
-        "gihWR": "59.8%"
+        "gihWR": "59.5%",
+        "count": "10334"
       },
       {
         "college": "Lorehold",
-        "gihWR": "58.5%"
+        "gihWR": "58.5%",
+        "count": "6801"
       }
     ]
   },
@@ -4234,15 +4958,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.0%"
+        "gihWR": "57.2%",
+        "count": "21592"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.7%",
+        "count": "29818"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.6%"
+        "gihWR": "48.6%",
+        "count": "368"
       },
       {
         "college": "Prismari",
-        "gihWR": "47.8%"
+        "gihWR": "47.4%",
+        "count": "443"
       }
     ]
   },
@@ -4263,7 +4995,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.6%"
+        "gihWR": "51.5%",
+        "count": "6904"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.9%",
+        "count": "7365"
       }
     ]
   },
@@ -4284,7 +5022,13 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "58.7%"
+        "gihWR": "58.6%",
+        "count": "11064"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.1%",
+        "count": "13320"
       }
     ]
   },
@@ -4305,15 +5049,45 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "60.6%"
+        "gihWR": "60.5%",
+        "count": "6129"
       },
       {
         "college": "Quandrix",
-        "gihWR": "60.3%"
+        "gihWR": "60.4%",
+        "count": "14421"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.7%",
+        "count": "31794"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.9%"
+        "gihWR": "55.4%",
+        "count": "5106"
+      }
+    ]
+  },
+  {
+    "name": "Fracture",
+    "manaCost": "{W}{B}",
+    "colors": [
+      "W",
+      "B"
+    ],
+    "cmc": 2,
+    "rarity": "uncommon",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/1/a11224f8-06ea-4ec3-85e6-d5c8d906840c.jpg?1617466038",
+    "types": [
+      "Instant"
+    ],
+    "rating": 1,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "47.3%",
+        "count": "201"
       }
     ]
   },
@@ -4334,7 +5108,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.0%"
+        "gihWR": "62.1%",
+        "count": "1471"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.6%",
+        "count": "2172"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "59.9%",
+        "count": "202"
       }
     ]
   },
@@ -4355,7 +5140,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.4%"
+        "gihWR": "54.0%",
+        "count": "2824"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.6%",
+        "count": "3497"
       }
     ]
   },
@@ -4375,8 +5166,14 @@
     "rating": 1.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "58.0%",
+        "count": "688"
+      },
+      {
         "college": "Witherbloom",
-        "gihWR": "55.7%"
+        "gihWR": "56.6%",
+        "count": "583"
       }
     ]
   },
@@ -4397,11 +5194,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "60.3%"
+        "gihWR": "59.9%",
+        "count": "1074"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "1878"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.2%"
+        "gihWR": "53.5%",
+        "count": "228"
       }
     ]
   },
@@ -4422,7 +5226,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.7%"
+        "gihWR": "60.4%",
+        "count": "7799"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.9%",
+        "count": "8551"
       }
     ]
   },
@@ -4443,7 +5253,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "53.8%"
+        "gihWR": "53.6%",
+        "count": "9975"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.2%",
+        "count": "11235"
       }
     ]
   },
@@ -4464,15 +5280,23 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "62.2%"
+        "gihWR": "62.1%",
+        "count": "8039"
       },
       {
         "college": "Silverquill",
-        "gihWR": "62.0%"
+        "gihWR": "61.8%",
+        "count": "20883"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.8%",
+        "count": "39813"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.7%"
+        "gihWR": "56.7%",
+        "count": "6692"
       }
     ]
   },
@@ -4493,7 +5317,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.3%"
+        "gihWR": "56.1%",
+        "count": "1039"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "1595"
       }
     ]
   },
@@ -4514,7 +5344,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "62.5%"
+        "gihWR": "62.3%",
+        "count": "10543"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.5%",
+        "count": "11936"
       }
     ]
   },
@@ -4535,7 +5371,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "49.4%"
+        "gihWR": "49.8%",
+        "count": "4553"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.6%",
+        "count": "4879"
       }
     ]
   },
@@ -4555,16 +5397,24 @@
     "rating": 4,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "65.0%",
+        "count": "4998"
+      },
+      {
         "college": "Lorehold",
-        "gihWR": "64.9%"
+        "gihWR": "65.0%",
+        "count": "2513"
       },
       {
         "college": "Silverquill",
-        "gihWR": "64.9%"
+        "gihWR": "64.6%",
+        "count": "435"
       },
       {
         "college": "Prismari",
-        "gihWR": "64.4%"
+        "gihWR": "63.5%",
+        "count": "1076"
       }
     ]
   },
@@ -4585,7 +5435,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.6%"
+        "gihWR": "51.6%",
+        "count": "3469"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.0%",
+        "count": "3923"
       }
     ]
   },
@@ -4606,15 +5462,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "52.7%"
+        "gihWR": "52.9%",
+        "count": "5269"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.0%"
+        "gihWR": "52.1%",
+        "count": "12271"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.7%",
+        "count": "24181"
       },
       {
         "college": "Prismari",
-        "gihWR": "51.0%"
+        "gihWR": "50.8%",
+        "count": "4052"
       }
     ]
   },
@@ -4635,11 +5499,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.4%"
+        "gihWR": "56.4%",
+        "count": "12149"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "14986"
       },
       {
         "college": "Quandrix",
-        "gihWR": "52.8%"
+        "gihWR": "54.0%",
+        "count": "291"
       }
     ]
   },
@@ -4660,11 +5531,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "68.5%"
+        "gihWR": "68.0%",
+        "count": "510"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "65.2%",
+        "count": "2895"
       },
       {
         "college": "Prismari",
-        "gihWR": "63.6%"
+        "gihWR": "63.6%",
+        "count": "1620"
       }
     ]
   },
@@ -4685,15 +5563,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.3%"
+        "gihWR": "54.2%",
+        "count": "2501"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.2%"
+        "gihWR": "53.2%",
+        "count": "5040"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.1%",
+        "count": "9508"
       },
       {
         "college": "Prismari",
-        "gihWR": "46.5%"
+        "gihWR": "46.4%",
+        "count": "1191"
       }
     ]
   },
@@ -4714,7 +5600,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "62.3%"
+        "gihWR": "61.8%",
+        "count": "3174"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.4%",
+        "count": "3982"
       }
     ]
   },
@@ -4735,7 +5627,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "51.7%"
+        "gihWR": "51.8%",
+        "count": "12482"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.6%",
+        "count": "14377"
       }
     ]
   },
@@ -4755,12 +5653,24 @@
     "rating": 4,
     "winRates": [
       {
-        "college": "Quandrix",
-        "gihWR": "56.9%"
+        "college": "Silverquill",
+        "gihWR": "59.6%",
+        "count": "208"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.9%"
+        "gihWR": "57.1%",
+        "count": "7941"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "11326"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "56.3%",
+        "count": "1115"
       }
     ]
   },
@@ -4781,7 +5691,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.9%"
+        "gihWR": "57.1%",
+        "count": "23961"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.6%",
+        "count": "29544"
       }
     ]
   },
@@ -4801,8 +5717,14 @@
     "rating": 2,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "49.2%",
+        "count": "7575"
+      },
+      {
         "college": "Prismari",
-        "gihWR": "49.1%"
+        "gihWR": "49.0%",
+        "count": "6297"
       }
     ]
   },
@@ -4823,11 +5745,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.3%"
+        "gihWR": "56.1%",
+        "count": "14880"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.4%",
+        "count": "16843"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.9%"
+        "gihWR": "51.5%",
+        "count": "241"
       }
     ]
   },
@@ -4848,15 +5777,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.5%"
+        "gihWR": "54.7%",
+        "count": "3255"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.4%"
+        "gihWR": "54.4%",
+        "count": "14649"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.8%",
+        "count": "24413"
       },
       {
         "college": "Quandrix",
-        "gihWR": "53.0%"
+        "gihWR": "52.7%",
+        "count": "3200"
       }
     ]
   },
@@ -4877,11 +5814,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "60.2%"
+        "gihWR": "59.6%",
+        "count": "617"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.1%"
+        "gihWR": "56.1%",
+        "count": "8972"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.0%",
+        "count": "11958"
       }
     ]
   },
@@ -4902,7 +5846,13 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "57.8%"
+        "gihWR": "57.6%",
+        "count": "11223"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.0%",
+        "count": "12569"
       }
     ]
   },
@@ -4922,8 +5872,19 @@
     "rating": 3,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "57.4%",
+        "count": "4023"
+      },
+      {
         "college": "Prismari",
-        "gihWR": "56.8%"
+        "gihWR": "57.2%",
+        "count": "2944"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "56.3%",
+        "count": "206"
       }
     ]
   },
@@ -4944,15 +5905,23 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.7%"
+        "gihWR": "56.6%",
+        "count": "26062"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.5%",
+        "count": "35823"
       },
       {
         "college": "Quandrix",
-        "gihWR": "52.0%"
+        "gihWR": "52.1%",
+        "count": "2797"
       },
       {
         "college": "Lorehold",
-        "gihWR": "49.6%"
+        "gihWR": "49.4%",
+        "count": "1617"
       }
     ]
   },
@@ -4973,7 +5942,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.7%"
+        "gihWR": "58.8%",
+        "count": "11825"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.6%",
+        "count": "15460"
       }
     ]
   },
@@ -4994,7 +5969,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "64.1%"
+        "gihWR": "64.6%",
+        "count": "2974"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.0%",
+        "count": "4315"
       }
     ]
   },
@@ -5015,7 +5996,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.0%"
+        "gihWR": "60.9%",
+        "count": "11879"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.7%",
+        "count": "15824"
       }
     ]
   },
@@ -5036,15 +6023,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.5%"
+        "gihWR": "56.5%",
+        "count": "18442"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.1%",
+        "count": "38181"
       },
       {
         "college": "Prismari",
-        "gihWR": "54.2%"
+        "gihWR": "54.4%",
+        "count": "8890"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.3%"
+        "gihWR": "52.0%",
+        "count": "4144"
       }
     ]
   },
@@ -5065,7 +6060,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "51.1%"
+        "gihWR": "51.0%",
+        "count": "7777"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.5%",
+        "count": "9215"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "48.7%",
+        "count": "234"
       }
     ]
   },
@@ -5085,12 +6091,19 @@
     "rating": 4,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "57.6%",
+        "count": "3885"
+      },
+      {
         "college": "Lorehold",
-        "gihWR": "57.2%"
+        "gihWR": "57.0%",
+        "count": "2219"
       },
       {
         "college": "Prismari",
-        "gihWR": "54.6%"
+        "gihWR": "55.8%",
+        "count": "738"
       }
     ]
   },
@@ -5111,11 +6124,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "52.7%"
+        "gihWR": "53.3%",
+        "count": "242"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.9%",
+        "count": "2266"
       },
       {
         "college": "Lorehold",
-        "gihWR": "47.1%"
+        "gihWR": "47.2%",
+        "count": "1378"
       }
     ]
   },
@@ -5136,7 +6156,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "50.7%"
+        "gihWR": "50.6%",
+        "count": "5576"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.1%",
+        "count": "6614"
       }
     ]
   },
@@ -5157,15 +6183,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "57.5%"
+        "gihWR": "57.4%",
+        "count": "345"
       },
       {
         "college": "Prismari",
-        "gihWR": "57.2%"
+        "gihWR": "56.9%",
+        "count": "1474"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.7%",
+        "count": "10752"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.0%"
+        "gihWR": "55.1%",
+        "count": "6995"
       }
     ]
   },
@@ -5186,11 +6220,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "55.6%"
+        "gihWR": "55.9%",
+        "count": "7423"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.3%",
+        "count": "9759"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.2%"
+        "gihWR": "53.3%",
+        "count": "569"
       }
     ]
   },
@@ -5211,15 +6252,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.2%"
+        "gihWR": "58.9%",
+        "count": "11919"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.3%",
+        "count": "34647"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.6%"
+        "gihWR": "57.0%",
+        "count": "9160"
       },
       {
         "college": "Lorehold",
-        "gihWR": "56.4%"
+        "gihWR": "56.2%",
+        "count": "7486"
       }
     ]
   },
@@ -5240,15 +6289,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "63.8%"
+        "gihWR": "63.4%",
+        "count": "2026"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.8%",
+        "count": "31524"
       },
       {
         "college": "Lorehold",
-        "gihWR": "62.0%"
+        "gihWR": "60.2%",
+        "count": "455"
       },
       {
         "college": "Prismari",
-        "gihWR": "60.5%"
+        "gihWR": "60.2%",
+        "count": "22127"
       }
     ]
   },
@@ -5269,7 +6326,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "38.4%"
+        "gihWR": "38.3%",
+        "count": "481"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "37.6%",
+        "count": "561"
       }
     ]
   },
@@ -5290,7 +6353,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.8%"
+        "gihWR": "55.7%",
+        "count": "7810"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.0%",
+        "count": "8459"
       }
     ]
   },
@@ -5311,11 +6380,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "67.3%"
+        "gihWR": "68.0%",
+        "count": "1086"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "64.9%",
+        "count": "2053"
+      },
+      {
+        "college": "Lorehold",
+        "gihWR": "61.0%",
+        "count": "205"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "61.2%"
+        "gihWR": "60.1%",
+        "count": "321"
       }
     ]
   },
@@ -5336,7 +6417,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.8%"
+        "gihWR": "56.9%",
+        "count": "8861"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.6%",
+        "count": "9450"
       }
     ]
   },
@@ -5357,11 +6444,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.7%"
+        "gihWR": "60.2%",
+        "count": "2232"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "3209"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.7%"
+        "gihWR": "57.7%",
+        "count": "241"
       }
     ]
   },
@@ -5382,15 +6476,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.0%"
+        "gihWR": "55.8%",
+        "count": "16511"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.3%",
+        "count": "25198"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.1%"
+        "gihWR": "51.9%",
+        "count": "2936"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.7%"
+        "gihWR": "50.5%",
+        "count": "3377"
       }
     ]
   },
@@ -5411,7 +6513,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "58.0%"
+        "gihWR": "57.8%",
+        "count": "2215"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "2397"
       }
     ]
   },
@@ -5432,7 +6540,13 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "54.4%"
+        "gihWR": "54.2%",
+        "count": "26995"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.7%",
+        "count": "31077"
       }
     ]
   },
@@ -5453,15 +6567,23 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "59.0%"
+        "gihWR": "59.0%",
+        "count": "9581"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "21263"
       },
       {
         "college": "Silverquill",
-        "gihWR": "56.4%"
+        "gihWR": "56.3%",
+        "count": "4421"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.1%"
+        "gihWR": "55.6%",
+        "count": "4640"
       }
     ]
   },
@@ -5482,7 +6604,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.5%"
+        "gihWR": "54.6%",
+        "count": "14533"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.2%",
+        "count": "16131"
       }
     ]
   },
@@ -5503,7 +6631,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "49.2%"
+        "gihWR": "48.3%",
+        "count": "766"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "46.9%",
+        "count": "1361"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "42.9%",
+        "count": "212"
       }
     ]
   },
@@ -5523,8 +6662,14 @@
     "rating": 3,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "53.3%",
+        "count": "15520"
+      },
+      {
         "college": "Lorehold",
-        "gihWR": "53.3%"
+        "gihWR": "53.2%",
+        "count": "14101"
       }
     ]
   },
@@ -5545,15 +6690,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.4%"
+        "gihWR": "53.0%",
+        "count": "902"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.5%",
+        "count": "7233"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.2%"
+        "gihWR": "50.5%",
+        "count": "4705"
       },
       {
         "college": "Lorehold",
-        "gihWR": "47.2%"
+        "gihWR": "47.8%",
+        "count": "297"
       }
     ]
   },
@@ -5574,7 +6727,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "51.6%"
+        "gihWR": "51.8%",
+        "count": "4223"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.4%",
+        "count": "4755"
       }
     ]
   },
@@ -5595,7 +6754,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "53.0%"
+        "gihWR": "52.9%",
+        "count": "2981"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.8%",
+        "count": "3622"
       }
     ]
   },
@@ -5616,7 +6781,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.5%"
+        "gihWR": "54.9%",
+        "count": "2003"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.9%",
+        "count": "2502"
       }
     ]
   },
@@ -5637,11 +6808,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "64.0%"
+        "gihWR": "63.4%",
+        "count": "590"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.3%",
+        "count": "2088"
       },
       {
         "college": "Lorehold",
-        "gihWR": "57.8%"
+        "gihWR": "58.2%",
+        "count": "764"
       }
     ]
   },
@@ -5661,8 +6839,14 @@
     "rating": 3.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "55.2%",
+        "count": "9596"
+      },
+      {
         "college": "Witherbloom",
-        "gihWR": "55.0%"
+        "gihWR": "55.0%",
+        "count": "8265"
       }
     ]
   },
@@ -5683,7 +6867,13 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "49.3%"
+        "gihWR": "49.2%",
+        "count": "1141"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "48.3%",
+        "count": "1430"
       }
     ]
   },
@@ -5704,15 +6894,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.6%"
+        "gihWR": "57.5%",
+        "count": "6067"
       },
       {
         "college": "Silverquill",
-        "gihWR": "55.1%"
+        "gihWR": "55.3%",
+        "count": "2350"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.2%",
+        "count": "24701"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.7%"
+        "gihWR": "54.1%",
+        "count": "12531"
       }
     ]
   },
@@ -5733,11 +6931,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.3%"
+        "gihWR": "58.3%",
+        "count": "10533"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "14352"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.0%"
+        "gihWR": "50.0%",
+        "count": "318"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "45.8%",
+        "count": "214"
       }
     ]
   },
@@ -5758,23 +6968,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "52.4%"
+        "gihWR": "51.9%",
+        "count": "1543"
       },
       {
         "college": "Quandrix",
-        "gihWR": "50.5%"
+        "gihWR": "50.8%",
+        "count": "2284"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.2%"
+        "gihWR": "50.0%",
+        "count": "2890"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.6%",
+        "count": "11721"
       },
       {
         "college": "Lorehold",
-        "gihWR": "48.3%"
+        "gihWR": "48.0%",
+        "count": "1595"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "47.1%"
+        "gihWR": "47.7%",
+        "count": "1395"
       }
     ]
   },
@@ -5795,23 +7015,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.7%"
+        "gihWR": "55.8%",
+        "count": "2043"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.9%"
+        "gihWR": "53.5%",
+        "count": "3204"
       },
       {
         "college": "Quandrix",
-        "gihWR": "52.8%"
+        "gihWR": "52.6%",
+        "count": "2662"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.2%",
+        "count": "16543"
       },
       {
         "college": "Lorehold",
-        "gihWR": "50.8%"
+        "gihWR": "50.8%",
+        "count": "1963"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "47.1%"
+        "gihWR": "47.2%",
+        "count": "2131"
       }
     ]
   },
@@ -5832,11 +7062,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.0%"
+        "gihWR": "56.9%",
+        "count": "1070"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.8%",
+        "count": "2859"
       },
       {
         "college": "Quandrix",
-        "gihWR": "53.2%"
+        "gihWR": "53.4%",
+        "count": "320"
       }
     ]
   },
@@ -5857,23 +7094,33 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.2%"
+        "gihWR": "53.3%",
+        "count": "1573"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "49.4%",
+        "count": "5929"
       },
       {
         "college": "Silverquill",
-        "gihWR": "49.5%"
-      },
-      {
-        "college": "Lorehold",
-        "gihWR": "48.0%"
+        "gihWR": "49.4%",
+        "count": "486"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "47.3%"
+        "gihWR": "47.9%",
+        "count": "856"
+      },
+      {
+        "college": "Lorehold",
+        "gihWR": "47.8%",
+        "count": "1094"
       },
       {
         "college": "Prismari",
-        "gihWR": "45.1%"
+        "gihWR": "44.8%",
+        "count": "708"
       }
     ]
   },
@@ -5894,11 +7141,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "46.1%"
+        "gihWR": "46.5%",
+        "count": "256"
       },
       {
         "college": "Prismari",
-        "gihWR": "43.1%"
+        "gihWR": "44.6%",
+        "count": "303"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "44.3%",
+        "count": "1188"
       }
     ]
   },
@@ -5918,23 +7172,33 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "53.1%"
+        "gihWR": "52.7%",
+        "count": "2255"
       },
       {
         "college": "Silverquill",
-        "gihWR": "52.1%"
+        "gihWR": "51.6%",
+        "count": "645"
       },
       {
         "college": "Prismari",
-        "gihWR": "51.1%"
+        "gihWR": "50.8%",
+        "count": "2473"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.6%",
+        "count": "11660"
       },
       {
         "college": "Lorehold",
-        "gihWR": "48.0%"
+        "gihWR": "48.6%",
+        "count": "760"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "48.0%"
+        "gihWR": "48.0%",
+        "count": "1386"
       }
     ]
   },
@@ -5955,23 +7219,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.6%"
+        "gihWR": "56.3%",
+        "count": "2928"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.0%"
+        "gihWR": "53.1%",
+        "count": "1690"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.4%",
+        "count": "7162"
       },
       {
         "college": "Quandrix",
-        "gihWR": "49.3%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "47.3%"
+        "gihWR": "49.0%",
+        "count": "553"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "47.0%"
+        "gihWR": "47.1%",
+        "count": "836"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "46.9%",
+        "count": "563"
       }
     ]
   },
@@ -5991,11 +7265,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "47.8%"
+        "gihWR": "47.5%",
+        "count": "746"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "45.5%",
+        "count": "1534"
       },
       {
         "college": "Quandrix",
-        "gihWR": "42.1%"
+        "gihWR": "43.2%",
+        "count": "303"
       }
     ]
   },
@@ -6015,7 +7296,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "44.7%"
+        "gihWR": "45.1%",
+        "count": "233"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "43.4%",
+        "count": "1063"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "38.7%",
+        "count": "204"
       }
     ]
   },
@@ -6035,23 +7327,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.7%"
+        "gihWR": "55.3%",
+        "count": "1076"
       },
       {
         "college": "Quandrix",
-        "gihWR": "53.8%"
+        "gihWR": "53.2%",
+        "count": "1341"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.0%",
+        "count": "5349"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.4%"
-      },
-      {
-        "college": "Prismari",
-        "gihWR": "48.2%"
+        "gihWR": "50.5%",
+        "count": "988"
       },
       {
         "college": "Lorehold",
-        "gihWR": "48.0%"
+        "gihWR": "47.5%",
+        "count": "938"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "47.4%",
+        "count": "473"
       }
     ]
   },
@@ -6071,23 +7373,33 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "56.6%"
+        "gihWR": "56.4%",
+        "count": "1753"
       },
       {
         "college": "Silverquill",
-        "gihWR": "56.5%"
+        "gihWR": "56.2%",
+        "count": "1536"
       },
       {
         "college": "Quandrix",
-        "gihWR": "54.2%"
+        "gihWR": "54.2%",
+        "count": "1521"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.7%",
+        "count": "7767"
       },
       {
         "college": "Lorehold",
-        "gihWR": "51.4%"
+        "gihWR": "52.0%",
+        "count": "1455"
       },
       {
         "college": "Prismari",
-        "gihWR": "48.9%"
+        "gihWR": "49.1%",
+        "count": "729"
       }
     ]
   },
@@ -6107,23 +7419,33 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.2%"
+        "gihWR": "58.0%",
+        "count": "1021"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.4%"
+        "gihWR": "55.5%",
+        "count": "1516"
       },
       {
         "college": "Silverquill",
-        "gihWR": "54.7%"
+        "gihWR": "54.8%",
+        "count": "2180"
       },
       {
-        "college": "Witherbloom",
-        "gihWR": "53.4%"
+        "college": "Overall",
+        "gihWR": "54.7%",
+        "count": "7359"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.0%"
+        "gihWR": "53.6%",
+        "count": "944"
+      },
+      {
+        "college": "Witherbloom",
+        "gihWR": "53.6%",
+        "count": "1303"
       }
     ]
   },
@@ -6143,23 +7465,33 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.8%"
+        "gihWR": "54.3%",
+        "count": "3439"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.3%"
+        "gihWR": "52.3%",
+        "count": "1095"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.5%",
+        "count": "17743"
       },
       {
         "college": "Prismari",
-        "gihWR": "49.9%"
+        "gihWR": "50.0%",
+        "count": "2490"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "49.2%"
+        "gihWR": "49.4%",
+        "count": "2287"
       },
       {
         "college": "Silverquill",
-        "gihWR": "48.0%"
+        "gihWR": "48.2%",
+        "count": "1270"
       }
     ]
   },
@@ -6179,23 +7511,33 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.5%"
+        "gihWR": "56.9%",
+        "count": "432"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.8%",
+        "count": "2008"
       },
       {
         "college": "Silverquill",
-        "gihWR": "54.2%"
-      },
-      {
-        "college": "Witherbloom",
-        "gihWR": "53.9%"
+        "gihWR": "54.8%",
+        "count": "228"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.8%"
+        "gihWR": "54.7%",
+        "count": "258"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.6%"
+        "gihWR": "54.5%",
+        "count": "595"
+      },
+      {
+        "college": "Witherbloom",
+        "gihWR": "54.0%",
+        "count": "285"
       }
     ]
   },
@@ -6215,11 +7557,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.1%"
+        "gihWR": "57.4%",
+        "count": "298"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.2%",
+        "count": "2436"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.7%"
+        "gihWR": "53.4%",
+        "count": "1390"
       }
     ]
   },
@@ -6238,12 +7587,19 @@
     "rating": 3,
     "winRates": [
       {
-        "college": "Prismari",
-        "gihWR": "54.0%"
+        "college": "Overall",
+        "gihWR": "52.9%",
+        "count": "1649"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.3%"
+        "gihWR": "52.6%",
+        "count": "908"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "52.3%",
+        "count": "266"
       }
     ]
   },
@@ -6263,23 +7619,33 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "61.7%"
+        "gihWR": "61.6%",
+        "count": "885"
       },
       {
         "college": "Quandrix",
-        "gihWR": "60.3%"
+        "gihWR": "61.0%",
+        "count": "1051"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "4950"
       },
       {
         "college": "Prismari",
-        "gihWR": "58.5%"
+        "gihWR": "58.7%",
+        "count": "1028"
       },
       {
         "college": "Lorehold",
-        "gihWR": "57.7%"
+        "gihWR": "58.0%",
+        "count": "550"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "56.9%"
+        "gihWR": "57.3%",
+        "count": "712"
       }
     ]
   },
@@ -6299,15 +7665,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.5%"
+        "gihWR": "56.7%",
+        "count": "2225"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.2%"
+        "gihWR": "55.0%",
+        "count": "4467"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.4%",
+        "count": "23595"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.4%"
+        "gihWR": "54.3%",
+        "count": "11753"
       }
     ]
   },
@@ -6326,8 +7700,19 @@
     "rating": 3,
     "winRates": [
       {
+        "college": "Quandrix",
+        "gihWR": "55.2%",
+        "count": "210"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.7%",
+        "count": "1587"
+      },
+      {
         "college": "Witherbloom",
-        "gihWR": "50.3%"
+        "gihWR": "49.9%",
+        "count": "953"
       }
     ]
   },
@@ -6347,15 +7732,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.6%"
+        "gihWR": "57.4%",
+        "count": "5606"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "34590"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.7%"
+        "gihWR": "55.3%",
+        "count": "1219"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.1%"
+        "gihWR": "55.0%",
+        "count": "18727"
       }
     ]
   },
@@ -6375,15 +7768,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.7%"
+        "gihWR": "57.7%",
+        "count": "19538"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.3%",
+        "count": "32596"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.5%"
+        "gihWR": "53.2%",
+        "count": "2258"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.1%"
+        "gihWR": "52.1%",
+        "count": "2129"
       }
     ]
   },
@@ -6403,7 +7804,13 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "58.3%"
+        "gihWR": "58.2%",
+        "count": "1061"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.8%",
+        "count": "1612"
       }
     ]
   },
@@ -6423,15 +7830,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "56.2%"
+        "gihWR": "56.2%",
+        "count": "13742"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.5%",
+        "count": "21914"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.3%"
+        "gihWR": "53.8%",
+        "count": "1536"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.8%"
+        "gihWR": "51.0%",
+        "count": "2629"
       }
     ]
   },
@@ -6451,7 +7866,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.1%"
+        "gihWR": "56.5%",
+        "count": "1372"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.7%",
+        "count": "2314"
       }
     ]
   },
@@ -6471,15 +7892,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.4%"
+        "gihWR": "57.1%",
+        "count": "3336"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.4%",
+        "count": "22337"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.9%"
+        "gihWR": "52.9%",
+        "count": "13635"
       },
       {
         "college": "Silverquill",
-        "gihWR": "51.1%"
+        "gihWR": "51.0%",
+        "count": "990"
       }
     ]
   },
@@ -6500,11 +7929,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.6%"
+        "gihWR": "62.3%",
+        "count": "1400"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.2%",
+        "count": "2346"
+      },
+      {
+        "college": "Prismari",
+        "gihWR": "57.1%",
+        "count": "210"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.2%"
+        "gihWR": "51.3%",
+        "count": "277"
       }
     ]
   },
@@ -6524,11 +7965,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "62.1%"
+        "gihWR": "62.0%",
+        "count": "250"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.4%",
+        "count": "636"
       },
       {
         "college": "Lorehold",
-        "gihWR": "58.3%"
+        "gihWR": "59.3%",
+        "count": "243"
       }
     ]
   },
@@ -6547,12 +7995,19 @@
     "rating": 0.5,
     "winRates": [
       {
-        "college": "Silverquill",
-        "gihWR": "54.1%"
+        "college": "Overall",
+        "gihWR": "53.5%",
+        "count": "877"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.5%"
+        "gihWR": "53.3%",
+        "count": "411"
+      },
+      {
+        "college": "Silverquill",
+        "gihWR": "53.3%",
+        "count": "345"
       }
     ]
   },
@@ -6572,11 +8027,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "62.7%"
+        "gihWR": "62.7%",
+        "count": "1998"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.5%",
+        "count": "4016"
       },
       {
         "college": "Lorehold",
-        "gihWR": "59.8%"
+        "gihWR": "59.0%",
+        "count": "1552"
       }
     ]
   },
@@ -6596,11 +8058,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "46.9%"
+        "gihWR": "46.3%",
+        "count": "320"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "44.0%",
+        "count": "932"
       },
       {
         "college": "Silverquill",
-        "gihWR": "43.1%"
+        "gihWR": "42.9%",
+        "count": "469"
       }
     ]
   },
@@ -6620,15 +8089,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "66.0%"
+        "gihWR": "65.8%",
+        "count": "1638"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "64.6%"
+        "gihWR": "64.1%",
+        "count": "1692"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "63.8%",
+        "count": "4547"
       },
       {
         "college": "Quandrix",
-        "gihWR": "63.7%"
+        "gihWR": "63.1%",
+        "count": "320"
       }
     ]
   },
@@ -6649,15 +8126,23 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "70.0%"
+        "gihWR": "70.3%",
+        "count": "1075"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "65.6%",
+        "count": "2262"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "65.3%"
+        "gihWR": "64.4%",
+        "count": "396"
       },
       {
         "college": "Lorehold",
-        "gihWR": "62.3%"
+        "gihWR": "62.7%",
+        "count": "268"
       }
     ]
   },
@@ -6678,7 +8163,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.2%"
+        "gihWR": "56.9%",
+        "count": "2995"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.6%",
+        "count": "3896"
+      },
+      {
+        "college": "Quandrix",
+        "gihWR": "53.6%",
+        "count": "209"
       }
     ]
   },
@@ -6699,7 +8195,34 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "58.1%"
+        "gihWR": "58.3%",
+        "count": "2593"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.0%",
+        "count": "3253"
+      }
+    ]
+  },
+  {
+    "name": "Weather the Storm",
+    "manaCost": "{1}{G}",
+    "colors": [
+      "G"
+    ],
+    "cmc": 2,
+    "rarity": "rare",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/2/02f960f2-1324-4d48-bab7-c46b836a8907.jpg?1616838957",
+    "types": [
+      "Instant"
+    ],
+    "rating": 1,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "45.0%",
+        "count": "322"
       }
     ]
   },
@@ -6719,23 +8242,33 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "56.9%"
+        "gihWR": "56.8%",
+        "count": "213"
       },
       {
         "college": "Silverquill",
-        "gihWR": "55.6%"
+        "gihWR": "55.7%",
+        "count": "463"
       },
       {
         "college": "Quandrix",
-        "gihWR": "54.7%"
+        "gihWR": "55.6%",
+        "count": "935"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.8%",
+        "count": "3177"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.0%"
+        "gihWR": "52.8%",
+        "count": "358"
       },
       {
         "college": "Prismari",
-        "gihWR": "51.2%"
+        "gihWR": "51.0%",
+        "count": "725"
       }
     ]
   },
@@ -6755,7 +8288,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "45.4%"
+        "gihWR": "45.1%",
+        "count": "253"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "44.0%",
+        "count": "518"
       }
     ]
   },
@@ -6775,12 +8314,40 @@
     "rating": 3.5,
     "winRates": [
       {
-        "college": "Prismari",
-        "gihWR": "62.4%"
+        "college": "Quandrix",
+        "gihWR": "62.8%",
+        "count": "215"
       },
       {
-        "college": "Quandrix",
-        "gihWR": "62.0%"
+        "college": "Prismari",
+        "gihWR": "62.4%",
+        "count": "2530"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.9%",
+        "count": "3563"
+      }
+    ]
+  },
+  {
+    "name": "Channel",
+    "manaCost": "{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "cmc": 2,
+    "rarity": "mythic",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/e/0e07a16f-d836-40f9-85e3-a78582a97109.jpg?1616700009",
+    "types": [
+      "Sorcery"
+    ],
+    "rating": 0,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "44.4%",
+        "count": "205"
       }
     ]
   },
@@ -6800,11 +8367,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "54.5%"
+        "gihWR": "54.3%",
+        "count": "888"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.3%"
+        "gihWR": "53.9%",
+        "count": "762"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.6%",
+        "count": "1831"
       }
     ]
   },
@@ -6824,11 +8398,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.3%"
+        "gihWR": "61.4%",
+        "count": "1198"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.4%",
+        "count": "3150"
       },
       {
         "college": "Prismari",
-        "gihWR": "59.2%"
+        "gihWR": "58.9%",
+        "count": "1408"
       }
     ]
   },
@@ -6848,11 +8429,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "51.9%"
+        "gihWR": "52.7%",
+        "count": "514"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.1%",
+        "count": "1466"
       },
       {
         "college": "Prismari",
-        "gihWR": "50.5%"
+        "gihWR": "49.9%",
+        "count": "706"
       }
     ]
   },
@@ -6872,11 +8460,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.2%"
+        "gihWR": "56.9%",
+        "count": "786"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.3%",
+        "count": "1522"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.1%"
+        "gihWR": "54.0%",
+        "count": "446"
       }
     ]
   },
@@ -6897,11 +8492,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.0%"
+        "gihWR": "61.4%",
+        "count": "272"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.7%",
+        "count": "2229"
       },
       {
         "college": "Lorehold",
-        "gihWR": "58.2%"
+        "gihWR": "59.2%",
+        "count": "1428"
       }
     ]
   },
@@ -6921,11 +8523,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "61.8%"
+        "gihWR": "62.2%",
+        "count": "259"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "58.0%"
+        "gihWR": "59.2%",
+        "count": "311"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "767"
       }
     ]
   },
@@ -6946,11 +8555,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.4%"
+        "gihWR": "59.3%",
+        "count": "295"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.9%",
+        "count": "2083"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "54.4%"
+        "gihWR": "54.6%",
+        "count": "1367"
       }
     ]
   },
@@ -6969,12 +8585,19 @@
     "rating": 3.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "55.8%",
+        "count": "1143"
+      },
+      {
         "college": "Quandrix",
-        "gihWR": "52.2%"
+        "gihWR": "53.6%",
+        "count": "496"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.0%"
+        "gihWR": "51.9%",
+        "count": "412"
       }
     ]
   },
@@ -6994,11 +8617,39 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "63.9%"
+        "gihWR": "63.5%",
+        "count": "630"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "59.4%",
+        "count": "1449"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.3%"
+        "gihWR": "55.3%",
+        "count": "582"
+      }
+    ]
+  },
+  {
+    "name": "Natural Order",
+    "manaCost": "{2}{G}{G}",
+    "colors": [
+      "G"
+    ],
+    "cmc": 4,
+    "rarity": "mythic",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/b/4bb72f05-5173-4e70-9e71-278249b378e7.jpg?1616794911",
+    "types": [
+      "Sorcery"
+    ],
+    "rating": 1,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "58.1%",
+        "count": "365"
       }
     ]
   },
@@ -7018,11 +8669,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.9%"
+        "gihWR": "62.5%",
+        "count": "1681"
       },
       {
         "college": "Lorehold",
-        "gihWR": "61.7%"
+        "gihWR": "62.0%",
+        "count": "1025"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "61.5%",
+        "count": "3415"
       }
     ]
   },
@@ -7042,11 +8700,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "52.9%"
+        "gihWR": "53.1%",
+        "count": "1909"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.5%",
+        "count": "4414"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "51.5%"
+        "gihWR": "51.1%",
+        "count": "1989"
       }
     ]
   },
@@ -7066,11 +8731,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "59.8%"
+        "gihWR": "59.1%",
+        "count": "886"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.6%",
+        "count": "1669"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.4%"
+        "gihWR": "54.1%",
+        "count": "629"
       }
     ]
   },
@@ -7089,12 +8761,19 @@
     "rating": 2.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "54.2%",
+        "count": "2611"
+      },
+      {
         "college": "Silverquill",
-        "gihWR": "54.5%"
+        "gihWR": "54.0%",
+        "count": "1190"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.7%"
+        "gihWR": "53.6%",
+        "count": "1171"
       }
     ]
   },
@@ -7114,11 +8793,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "51.3%"
+        "gihWR": "52.3%",
+        "count": "644"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.2%",
+        "count": "1331"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "49.3%"
+        "gihWR": "50.0%",
+        "count": "532"
       }
     ]
   },
@@ -7138,11 +8824,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "61.4%"
+        "gihWR": "60.6%",
+        "count": "406"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.8%",
+        "count": "1063"
       },
       {
         "college": "Silverquill",
-        "gihWR": "58.7%"
+        "gihWR": "58.8%",
+        "count": "403"
       }
     ]
   },
@@ -7162,11 +8855,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.6%"
+        "gihWR": "57.3%",
+        "count": "2200"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.9%",
+        "count": "6225"
       },
       {
         "college": "Prismari",
-        "gihWR": "56.3%"
+        "gihWR": "56.7%",
+        "count": "2787"
       }
     ]
   },
@@ -7186,11 +8886,60 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "59.1%"
+        "gihWR": "59.2%",
+        "count": "6800"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.9%",
+        "count": "12801"
       },
       {
         "college": "Lorehold",
-        "gihWR": "57.3%"
+        "gihWR": "57.5%",
+        "count": "4152"
+      }
+    ]
+  },
+  {
+    "name": "Tendrils of Agony",
+    "manaCost": "{2}{B}{B}",
+    "colors": [
+      "B"
+    ],
+    "cmc": 4,
+    "rarity": "rare",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/5/659d0ca7-90c9-473a-8b46-4fe40351b57d.jpg?1616795276",
+    "types": [
+      "Sorcery"
+    ],
+    "rating": 0,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "44.7%",
+        "count": "356"
+      }
+    ]
+  },
+  {
+    "name": "Chaos Warp",
+    "manaCost": "{2}{R}",
+    "colors": [
+      "R"
+    ],
+    "cmc": 3,
+    "rarity": "mythic",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/d/6d0a3996-5a03-481b-9bda-15c6f6e5f9c4.jpg?1616839537",
+    "types": [
+      "Instant"
+    ],
+    "rating": 1,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "45.3%",
+        "count": "360"
       }
     ]
   },
@@ -7210,11 +8959,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "62.7%"
+        "gihWR": "62.3%",
+        "count": "774"
       },
       {
         "college": "Quandrix",
-        "gihWR": "60.3%"
+        "gihWR": "60.8%",
+        "count": "615"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.6%",
+        "count": "1649"
       }
     ]
   },
@@ -7234,7 +8990,34 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "53.0%"
+        "gihWR": "53.5%",
+        "count": "389"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.5%",
+        "count": "606"
+      }
+    ]
+  },
+  {
+    "name": "Dark Ritual",
+    "manaCost": "{B}",
+    "colors": [
+      "B"
+    ],
+    "cmc": 1,
+    "rarity": "rare",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/f/6fc57076-cac4-4f5e-956b-e3d77bd258b2.jpg?1616839527",
+    "types": [
+      "Instant"
+    ],
+    "rating": 0,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "44.9%",
+        "count": "334"
       }
     ]
   },
@@ -7254,11 +9037,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "54.1%"
+        "gihWR": "54.2%",
+        "count": "2270"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "52.7%",
+        "count": "3820"
       },
       {
         "college": "Prismari",
-        "gihWR": "52.4%"
+        "gihWR": "52.5%",
+        "count": "1265"
       }
     ]
   },
@@ -7278,11 +9068,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "51.7%"
+        "gihWR": "51.7%",
+        "count": "2805"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.0%",
+        "count": "4549"
       },
       {
         "college": "Lorehold",
-        "gihWR": "49.1%"
+        "gihWR": "49.2%",
+        "count": "1230"
       }
     ]
   },
@@ -7302,11 +9099,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "52.7%"
+        "gihWR": "52.3%",
+        "count": "346"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "50.1%",
+        "count": "747"
       },
       {
         "college": "Silverquill",
-        "gihWR": "48.9%"
+        "gihWR": "48.5%",
+        "count": "301"
       }
     ]
   },
@@ -7326,11 +9130,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.3%"
+        "gihWR": "60.4%",
+        "count": "1013"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "2726"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "57.1%"
+        "gihWR": "57.6%",
+        "count": "1101"
       }
     ]
   },
@@ -7350,11 +9161,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "67.2%"
+        "gihWR": "66.4%",
+        "count": "1087"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "65.8%",
+        "count": "1800"
       },
       {
         "college": "Lorehold",
-        "gihWR": "58.4%"
+        "gihWR": "58.9%",
+        "count": "246"
       }
     ]
   },
@@ -7374,11 +9192,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "60.6%"
+        "gihWR": "59.5%",
+        "count": "852"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.4%",
+        "count": "2232"
       },
       {
         "college": "Prismari",
-        "gihWR": "57.7%"
+        "gihWR": "58.0%",
+        "count": "1053"
       }
     ]
   },
@@ -7398,11 +9223,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "59.7%"
+        "gihWR": "59.4%",
+        "count": "1398"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.6%",
+        "count": "2977"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "58.0%"
+        "gihWR": "58.2%",
+        "count": "1039"
       }
     ]
   },
@@ -7422,11 +9254,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.0%"
+        "gihWR": "57.6%",
+        "count": "2867"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.9%",
+        "count": "8856"
       },
       {
         "college": "Prismari",
-        "gihWR": "55.4%"
+        "gihWR": "55.4%",
+        "count": "4705"
       }
     ]
   },
@@ -7446,11 +9285,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "55.0%"
+        "gihWR": "54.8%",
+        "count": "2215"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.5%",
+        "count": "4609"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.6%"
+        "gihWR": "52.6%",
+        "count": "2085"
       }
     ]
   },
@@ -7471,7 +9317,13 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "55.5%"
+        "gihWR": "55.9%",
+        "count": "1604"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.8%",
+        "count": "2080"
       }
     ]
   },
@@ -7491,11 +9343,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "59.0%"
+        "gihWR": "58.5%",
+        "count": "969"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "54.9%",
+        "count": "2081"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "52.4%"
+        "gihWR": "51.9%",
+        "count": "757"
       }
     ]
   },
@@ -7515,11 +9374,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "57.8%"
+        "gihWR": "57.8%",
+        "count": "5873"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.7%",
+        "count": "11732"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "53.5%"
+        "gihWR": "53.8%",
+        "count": "2679"
       }
     ]
   },
@@ -7539,11 +9405,18 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "46.6%"
+        "gihWR": "46.4%",
+        "count": "248"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "44.5%",
+        "count": "760"
       },
       {
         "college": "Prismari",
-        "gihWR": "41.1%"
+        "gihWR": "42.2%",
+        "count": "393"
       }
     ]
   },
@@ -7562,12 +9435,19 @@
     "rating": 2,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "53.1%",
+        "count": "1653"
+      },
+      {
         "college": "Prismari",
-        "gihWR": "52.9%"
+        "gihWR": "53.1%",
+        "count": "933"
       },
       {
         "college": "Lorehold",
-        "gihWR": "52.1%"
+        "gihWR": "51.9%",
+        "count": "391"
       }
     ]
   },
@@ -7587,8 +9467,14 @@
     "rating": 3,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "55.1%",
+        "count": "1557"
+      },
+      {
         "college": "Silverquill",
-        "gihWR": "55.9%"
+        "gihWR": "55.1%",
+        "count": "1225"
       }
     ]
   },
@@ -7608,11 +9494,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "58.5%"
+        "gihWR": "58.4%",
+        "count": "4570"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.4%",
+        "count": "10514"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "57.9%"
+        "gihWR": "57.4%",
+        "count": "4448"
       }
     ]
   },
@@ -7631,16 +9524,24 @@
     "rating": 4.5,
     "winRates": [
       {
-        "college": "Lorehold",
-        "gihWR": "62.4%"
+        "college": "Silverquill",
+        "gihWR": "62.5%",
+        "count": "1186"
       },
       {
-        "college": "Silverquill",
-        "gihWR": "61.8%"
+        "college": "Overall",
+        "gihWR": "62.1%",
+        "count": "3107"
+      },
+      {
+        "college": "Lorehold",
+        "gihWR": "62.0%",
+        "count": "1049"
       },
       {
         "college": "Prismari",
-        "gihWR": "61.7%"
+        "gihWR": "61.1%",
+        "count": "247"
       }
     ]
   },
@@ -7660,11 +9561,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "50.0%"
+        "gihWR": "49.7%",
+        "count": "304"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "48.9%",
+        "count": "640"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "49.0%"
+        "gihWR": "48.7%",
+        "count": "261"
       }
     ]
   },
@@ -7684,11 +9592,18 @@
     "winRates": [
       {
         "college": "Prismari",
-        "gihWR": "56.8%"
+        "gihWR": "57.0%",
+        "count": "1537"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.9%",
+        "count": "3050"
       },
       {
         "college": "Lorehold",
-        "gihWR": "53.5%"
+        "gihWR": "54.0%",
+        "count": "832"
       }
     ]
   },
@@ -7708,11 +9623,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "58.6%"
+        "gihWR": "58.5%",
+        "count": "3257"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "56.5%",
+        "count": "6491"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "55.0%"
+        "gihWR": "54.8%",
+        "count": "2434"
       }
     ]
   },
@@ -7732,11 +9654,18 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "53.0%"
+        "gihWR": "53.6%",
+        "count": "2665"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.1%",
+        "count": "4303"
       },
       {
         "college": "Silverquill",
-        "gihWR": "51.3%"
+        "gihWR": "51.6%",
+        "count": "1288"
       }
     ]
   },
@@ -7756,15 +9685,23 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "66.5%"
+        "gihWR": "67.3%",
+        "count": "300"
       },
       {
         "college": "Prismari",
-        "gihWR": "61.2%"
+        "gihWR": "61.0%",
+        "count": "385"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.5%",
+        "count": "1553"
       },
       {
         "college": "Lorehold",
-        "gihWR": "55.0%"
+        "gihWR": "54.3%",
+        "count": "243"
       }
     ]
   },
@@ -7784,7 +9721,13 @@
     "winRates": [
       {
         "college": "Lorehold",
-        "gihWR": "46.1%"
+        "gihWR": "45.8%",
+        "count": "253"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "44.5%",
+        "count": "494"
       }
     ]
   },
@@ -7804,11 +9747,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "52.6%"
+        "gihWR": "52.5%",
+        "count": "1876"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "51.9%",
+        "count": "3669"
       },
       {
         "college": "Witherbloom",
-        "gihWR": "50.8%"
+        "gihWR": "51.2%",
+        "count": "1159"
       }
     ]
   },
@@ -7828,11 +9778,18 @@
     "winRates": [
       {
         "college": "Silverquill",
-        "gihWR": "60.1%"
+        "gihWR": "60.7%",
+        "count": "521"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "57.6%",
+        "count": "974"
       },
       {
         "college": "Lorehold",
-        "gihWR": "54.4%"
+        "gihWR": "54.8%",
+        "count": "385"
       }
     ]
   },
@@ -7852,11 +9809,39 @@
     "winRates": [
       {
         "college": "Witherbloom",
-        "gihWR": "58.8%"
+        "gihWR": "58.7%",
+        "count": "564"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "58.2%",
+        "count": "1121"
       },
       {
         "college": "Silverquill",
-        "gihWR": "57.8%"
+        "gihWR": "58.0%",
+        "count": "338"
+      }
+    ]
+  },
+  {
+    "name": "Stone Rain",
+    "manaCost": "{2}{R}",
+    "colors": [
+      "R"
+    ],
+    "cmc": 3,
+    "rarity": "rare",
+    "image": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/6/f60687e5-9384-4453-833e-2c76f25bfac5.jpg?1616839029",
+    "types": [
+      "Sorcery"
+    ],
+    "rating": 0,
+    "winRates": [
+      {
+        "college": "Overall",
+        "gihWR": "56.6%",
+        "count": "226"
       }
     ]
   },
@@ -7876,11 +9861,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "56.9%"
+        "gihWR": "56.9%",
+        "count": "1320"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "55.0%",
+        "count": "3267"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.8%"
+        "gihWR": "53.7%",
+        "count": "1416"
       }
     ]
   },
@@ -7899,8 +9891,14 @@
     "rating": 1.5,
     "winRates": [
       {
+        "college": "Overall",
+        "gihWR": "47.1%",
+        "count": "518"
+      },
+      {
         "college": "Silverquill",
-        "gihWR": "43.4%"
+        "gihWR": "43.3%",
+        "count": "233"
       }
     ]
   },
@@ -7920,11 +9918,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "54.3%"
+        "gihWR": "54.1%",
+        "count": "1173"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "53.4%",
+        "count": "3821"
       },
       {
         "college": "Prismari",
-        "gihWR": "53.2%"
+        "gihWR": "53.3%",
+        "count": "2040"
       }
     ]
   },
@@ -7944,11 +9949,18 @@
     "winRates": [
       {
         "college": "Quandrix",
-        "gihWR": "61.2%"
+        "gihWR": "60.8%",
+        "count": "1106"
+      },
+      {
+        "college": "Overall",
+        "gihWR": "60.5%",
+        "count": "2553"
       },
       {
         "college": "Prismari",
-        "gihWR": "60.3%"
+        "gihWR": "60.2%",
+        "count": "1093"
       }
     ]
   }
