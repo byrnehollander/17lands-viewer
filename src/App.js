@@ -12,7 +12,7 @@ import OutlinedInput from '@material-ui/core/OutlinedInput'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
-import { isMobile} from "react-device-detect"
+import { isMobile } from 'react-device-detect'
 import styled from 'styled-components'
 import { useHotkeys } from 'react-hotkeys-hook'
 import Tilty from 'react-tilty'
@@ -50,7 +50,6 @@ const MobileCardsContainer = styled.div`
   margin-bottom: 40px;
   min-width: 90vw;
 `
-
 
 const ButtonContainer = styled.div`
   margin-top: 40px;
@@ -232,7 +231,7 @@ function App () {
             <div style={{ marginRight: 10, width: 'fit-content' }}>
               {renderImage(c.image, c.name, 150)}
             </div>
-            <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 20 }}>
+            <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 8 }}>
               {renderWinRateByCollege(c.winRates, 14)}
             </div>
           </MobileCardsContainer>
@@ -263,7 +262,7 @@ function App () {
     const arr = []
     for (let i = 0; i < winRates.length; i++) {
       arr.push(
-        <div key={i} style={{ fontSize: fontSize, marginBottom: 7 }}>
+        <div key={i} style={{ fontSize: fontSize, marginBottom: 5 }}>
           <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count} games)
         </div>
       )
