@@ -12,6 +12,7 @@ import OutlinedInput from '@material-ui/core/OutlinedInput'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
+import { isMobile} from "react-device-detect"
 import styled from 'styled-components'
 import { useHotkeys } from 'react-hotkeys-hook'
 import Tilty from 'react-tilty'
@@ -43,6 +44,13 @@ const FlexContainer = styled.div`
   display: flex;
   flex-flow: row wrap;
 `
+
+const MobileCardsContainer = styled.div`
+  display: flex;
+  margin-bottom: 40px;
+  min-width: 90vw;
+`
+
 
 const ButtonContainer = styled.div`
   margin-top: 40px;
@@ -177,7 +185,6 @@ function App () {
   const [searchTerm, setSearchTerm] = useState('')
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
-
   useHotkeys('cmd+k', () => textInput.current.focus())
 
   const getMatches = (types, colors) => {
@@ -196,27 +203,41 @@ function App () {
     return renderMatchesByCMC(matches)
   }
 
-  const renderSingleImage = (url, name, smallMode) => {
-    return <img src={url} alt={name} width={smallMode ? 320 : 440} />
+  const renderSingleImage = (url, name, width) => {
+    return <img src={url} alt={name} width={width} />
   }
 
-  const renderImage = (url, name, smallMode) => {
+  const renderImage = (url, name, width) => {
     if (url.includes('/back/')) {
       const front = url.replace('/back/', '/front/')
       return (
         <>
-          {renderSingleImage(front, name, smallMode)}
-          {renderSingleImage(url, name, smallMode)}
+          {renderSingleImage(front, name, width)}
+          {renderSingleImage(url, name, width)}
         </>
       )
     }
-    return renderSingleImage(url, name, smallMode)
+    return renderSingleImage(url, name, width)
   }
 
   const renderImages = (cards) => {
     let smallMode = false
     if (cards.length > 2) {
       smallMode = true
+    }
+    if (isMobile) {
+      return cards.map((c, i) => {
+        return (
+          <MobileCardsContainer key={i}>
+            <div style={{ marginRight: 10, width: 'fit-content' }}>
+              {renderImage(c.image, c.name, 150)}
+            </div>
+            <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 20 }}>
+              {renderWinRateByCollege(c.winRates, 14)}
+            </div>
+          </MobileCardsContainer>
+        )
+      })
     }
     return cards.map((c, i) => {
       return (
@@ -226,23 +247,23 @@ function App () {
             max={8}
             style={{ minWidth: smallMode ? 330 : 450, marginRight: 20, marginBottom: 20 }}
           >
-            {renderImage(c.image, c.name, smallMode)}
+            {renderImage(c.image, c.name, smallMode ? 320 : 440)}
           </Tilty>
           {/* <div style={{ display: 'flex', width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
              <b style={{ marginRight: 20, fontSize: 20 }}>{c.rating.toFixed(1)}</b> // LSV Rating */}
           <div style={{ width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
-            {renderWinRateByCollege(c.winRates)}
+            {renderWinRateByCollege(c.winRates, 18)}
           </div>
         </div>
       )
     })
   }
 
-  const renderWinRateByCollege = (winRates) => {
+  const renderWinRateByCollege = (winRates, fontSize) => {
     const arr = []
     for (let i = 0; i < winRates.length; i++) {
       arr.push(
-        <div key={i} style={{ fontSize: 18 }}>
+        <div key={i} style={{ fontSize: fontSize }}>
           <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count} games)
         </div>
       )
@@ -290,19 +311,19 @@ function App () {
           aria-controls='panel1a-content'
           id='panel1a-header'
         >
-          <Typography variant='h6' style={{ fontWeight: 400 }}>Learn more about this site</Typography>
+          <Typography variant='h6' style={{ fontWeight: 400, fontSize: 16 }}>Learn more about this site</Typography>
         </AccordionSummary>
         <StyledAccordionDetails>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
           </Typography>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 26, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand).
           </Typography>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400 }}>
+          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             Also note that the collective average win rate from 17Lands users is <b>54.6%</b> (in Strixhaven Premier Draft).
           </Typography>
-          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400 }}>
+          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             Lastly, here are the win rates by college for 17Lands users (this time, only looking at <i>exactly</i> 2 colors; notably, no decks gain in average win rate by adding colors):
             <ol>
               <li><i>Silverquill (WB)</i>: 58.4%</li>
