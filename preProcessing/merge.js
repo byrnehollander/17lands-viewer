@@ -21,7 +21,7 @@ for (let i = 0; i < cards.length; i++) {
 for (let i = 0; i < winRates.length; i++) {
   const { card, gihWR, college, count } = winRates[i]
   if (dict[card]) {
-    dict[card].winRateByCollege.push({college, gihWR, count})
+    dict[card].winRateByCollege.push({ college, gihWR, count })
   }
 }
 

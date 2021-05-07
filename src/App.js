@@ -317,7 +317,7 @@ function App () {
             This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric as of April 26, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
+            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of May 7, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             Also note that the collective average win rate from 17Lands users is <b>54.5%</b> (in Strixhaven Premier Draft).
@@ -326,10 +326,10 @@ function App () {
             Lastly, here are the win rates by college for 17Lands users (this time, only looking at <i>exactly</i> 2 colors; notably, no decks gain in average win rate by adding colors):
             <ol>
               <li><i>Silverquill (WB)</i>: 58.4%</li>
-              <li><i>Quandrix (GU)</i>: 55.9%</li>
+              <li><i>Quandrix (GU)</i>: 56.2%</li>
               <li><i>Lorehold (RW)</i>: 54.0%</li>
-              <li><i>Witherbloom (BG)</i>: 53.9%</li>
-              <li><i>Prismari (UR)</i>: 53.9%</li>
+              <li><i>Witherbloom (BG)</i>: 53.8%</li>
+              <li><i>Prismari (UR)</i>: 53.8%</li>
             </ol>
           </Typography>
         </StyledAccordionDetails>
