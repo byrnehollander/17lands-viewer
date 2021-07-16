@@ -232,7 +232,7 @@ function App () {
               {renderImage(c.image, c.name, 150)}
             </div>
             <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 8 }}>
-              {renderWinRateByCollege(c.winRates, 14)}
+              {renderRatingAndDescription(c.rating, c.ratingDescription, 14)}
             </div>
           </MobileCardsContainer>
         )
@@ -251,27 +251,27 @@ function App () {
           {/* <div style={{ display: 'flex', width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
              <b style={{ marginRight: 20, fontSize: 20 }}>{c.rating.toFixed(1)}</b> // LSV Rating */}
           <div style={{ width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
-            {renderWinRateByCollege(c.winRates, 18)}
+            {renderRatingAndDescription(c.rating, c.ratingDescription, 18)}
           </div>
         </div>
       )
     })
   }
 
-  const renderWinRateByCollege = (winRates, fontSize) => {
+  const renderRatingAndDescription = (rating, description, fontSize) => {
     const arr = []
-    for (let i = 0; i < winRates.length; i++) {
-      arr.push(
-        <div key={i} style={{ fontSize: fontSize, marginBottom: 5 }}>
-          <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count})
-        </div>
-      )
-    }
+    arr.push(
+      <div style={{ fontSize: fontSize, marginBottom: 5 }}>
+        <b>{rating.toFixed(1)}</b>: {description})
+      </div>
+    )
     return arr
   }
 
+  // <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count})
+
   const renderMatchesByCMC = (elements, CMC) => {
-    const filteredCards = elements.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.winRates[0].gihWR) - parseFloat(a.winRates[0].gihWR))
+    const filteredCards = elements.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating))
     if (filteredCards.length > 0) {
       return (
         <FlexContainer>
@@ -314,7 +314,7 @@ function App () {
         </AccordionSummary>
         <StyledAccordionDetails>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Strixhaven cards perform in each college. This includes splashes – so the "Witherbloom" label also includes decks that are GBw, GBu, etc.
+            This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Adventures in the Forgotten Realms cards perform.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
             All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of May 7, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
