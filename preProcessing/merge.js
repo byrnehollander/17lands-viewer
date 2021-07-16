@@ -4,7 +4,7 @@ const winRates = require('./17LandsWinRate.json')
 const dict = {}
 
 for (let i = 0; i < cards.length; i++) {
-  const { name, manaCost, types, colors, cmc, rarity, image, rating } = cards[i]
+  const { name, manaCost, type, colors, cmc, rarity, image, rating, ratingDescription } = cards[i]
   dict[name] = {
     name,
     manaCost,
@@ -12,27 +12,26 @@ for (let i = 0; i < cards.length; i++) {
     cmc: parseInt(cmc),
     rarity,
     image,
-    types,
-    lsvRating: parseFloat(rating),
-    winRateByCollege: []
+    type,
+    lsvRating: parseFloat(rating).toFixed(1),
+    lsvDescription: ratingDescription,
+    gihWR: '0',
+    gihWRCount: '0'
   }
 }
 
 for (let i = 0; i < winRates.length; i++) {
-  const { card, gihWR, college, count } = winRates[i]
+  const { card, gihWR, count } = winRates[i]
   if (dict[card]) {
-    dict[card].winRateByCollege.push({ college, gihWR, count })
+    dict[card].gihWR = gihWR
+    dict[card].gihWRCount = count
   }
 }
 
 // print the dictionary
 for (const [_, value] of Object.entries(dict)) {
-  const { name, manaCost, types, colors, cmc, rarity, image, lsvRating, winRateByCollege } = value
-  if (winRateByCollege?.length > 0) {
-    if (winRateByCollege?.length > 1) {
-      winRateByCollege.sort((a, b) => parseFloat(b.gihWR) - parseFloat(a.gihWR))
-    }
-    console.log(`
+  const { name, manaCost, type, colors, cmc, rarity, image, lsvRating, gihWR, gihWRCount, lsvDescription } = value
+  console.log(`
     {
       "name": "${name}",
       "manaCost": "${manaCost}",
@@ -40,9 +39,11 @@ for (const [_, value] of Object.entries(dict)) {
       "cmc": ${parseInt(cmc)},
       "rarity": "${rarity}",
       "image": "${image}",
-      "types": ${JSON.stringify(types)},
+      "type": ${JSON.stringify(type)},
       "rating": ${parseFloat(lsvRating)},
-      "winRates": ${JSON.stringify(winRateByCollege)}
+      "gihWR": ${JSON.stringify(gihWR)},
+      "gihWRCount": ${parseInt(gihWRCount)},
+      "lsvRating": ${lsvRating},
+      "lsvDescription": ${JSON.stringify(lsvDescription)}
     },`)
-  }
 }

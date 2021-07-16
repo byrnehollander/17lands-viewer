@@ -232,7 +232,7 @@ function App () {
               {renderImage(c.image, c.name, 150)}
             </div>
             <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 8 }}>
-              {renderRatingAndDescription(c.rating, c.ratingDescription, 14)}
+              {renderRatingAndDescription(c, 14)}
             </div>
           </MobileCardsContainer>
         )
@@ -251,18 +251,20 @@ function App () {
           {/* <div style={{ display: 'flex', width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
              <b style={{ marginRight: 20, fontSize: 20 }}>{c.rating.toFixed(1)}</b> // LSV Rating */}
           <div style={{ width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
-            {renderRatingAndDescription(c.rating, c.ratingDescription, 18)}
+            {renderRatingAndDescription(c, 18)}
           </div>
         </div>
       )
     })
   }
 
-  const renderRatingAndDescription = (rating, description, fontSize) => {
+  const renderRatingAndDescription = (card, fontSize) => {
     const arr = []
     arr.push(
       <div style={{ fontSize: fontSize, marginBottom: 5 }}>
-        <b>{rating.toFixed(1)}</b>: {description})
+        {card.gihWRCount > 0 ? (<div style={{ marginBottom: 20 }}>17Lands: <b>{card.gihWR}</b> ({card.gihWRCount})</div>) : ''}
+        <div><b>{card.rating.toFixed(1)}</b> (LSV)</div>
+        <div>{card.lsvDescription})</div>
       </div>
     )
     return arr
@@ -317,20 +319,10 @@ function App () {
             This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Adventures in the Forgotten Realms cards perform.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of May 7, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
+            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of July 16, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
           </Typography>
           <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            Also note that the collective average win rate from 17Lands users is <b>54.5%</b> (in Strixhaven Premier Draft).
-          </Typography>
-          <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            Lastly, here are the win rates by college for 17Lands users (this time, only looking at <i>exactly</i> 2 colors; notably, no decks gain in average win rate by adding colors):
-            <ol>
-              <li><i>Silverquill (WB)</i>: 58.4%</li>
-              <li><i>Quandrix (GU)</i>: 56.2%</li>
-              <li><i>Lorehold (RW)</i>: 54.0%</li>
-              <li><i>Witherbloom (BG)</i>: 53.8%</li>
-              <li><i>Prismari (UR)</i>: 53.8%</li>
-            </ol>
+            Also note that the collective average win rate from 17Lands users is <b>54.1%</b> (in Adventures in the Forgotten Realms Premier Draft).
           </Typography>
         </StyledAccordionDetails>
       </Accordion>
