@@ -264,7 +264,7 @@ function App () {
       <div style={{ fontSize: fontSize, marginBottom: 5 }}>
         {card.gihWRCount > 0 ? (<div style={{ marginBottom: 20 }}>17Lands: <b>{card.gihWR}</b> ({card.gihWRCount})</div>) : ''}
         <div><b>{card.rating.toFixed(1)}</b> (LSV)</div>
-        <div>{card.lsvDescription})</div>
+        <div>{card.lsvDescription}</div>
       </div>
     )
     return arr
