@@ -6,18 +6,20 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { TypographyShadow } from './sharedStyles'
 
+const SET_CODE = 'afr'
+
 const FlexEndContainer = styled.div`
   display: flex;
   align-items: end;
 `
 
 const SetIconLarge = styled.span`
-  font-size: 30px;
+  font-size: 40px;
 `
 
 const SelectedRarityIconButton = withStyles({
   label: {
-    padding: 10,
+    padding: 4,
     boxShadow: 'inset 0 0 12px 10px rgb(255 255 255 / 15%), 0 0 5px 3px rgb(255 255 255 / 15%)',
     borderRadius: 100
   }
@@ -81,12 +83,12 @@ const RaritiesHeader = ({ setRarities, rarities }) => {
         {rarities.has('common')
           ? (
             <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-              <SetIconLarge className='ss ss-common ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-common ss-grad ss-${SET_CODE}`} />
             </SelectedRarityIconButton>
             )
           : (
             <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('common')} color='primary' aria-label='Common Cards' component='span'>
-              <SetIconLarge className='ss ss-common ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-common ss-grad ss-${SET_CODE}`} />
             </UnselectedIconButton>
             )}
       </Tooltip>
@@ -94,12 +96,12 @@ const RaritiesHeader = ({ setRarities, rarities }) => {
         {rarities.has('uncommon')
           ? (
             <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-              <SetIconLarge className='ss ss-uncommon ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-uncommon ss-grad ss-${SET_CODE}`} />
             </SelectedRarityIconButton>
             )
           : (
             <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('uncommon')} color='primary' aria-label='Uncommon Cards' component='span'>
-              <SetIconLarge className='ss ss-uncommon ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-uncommon ss-grad ss-${SET_CODE}`} />
             </UnselectedIconButton>
             )}
       </Tooltip>
@@ -107,12 +109,12 @@ const RaritiesHeader = ({ setRarities, rarities }) => {
         {rarities.has('rare')
           ? (
             <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-              <SetIconLarge className='ss ss-rare ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-rare ss-grad ss-${SET_CODE}`} />
             </SelectedRarityIconButton>
             )
           : (
             <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('rare')} color='primary' aria-label='Rare Cards' component='span'>
-              <SetIconLarge className='ss ss-rare ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-rare ss-grad ss-${SET_CODE}`} />
             </UnselectedIconButton>
             )}
       </Tooltip>
@@ -120,12 +122,12 @@ const RaritiesHeader = ({ setRarities, rarities }) => {
         {rarities.has('mythic')
           ? (
             <SelectedRarityIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-              <SetIconLarge className='ss ss-mythic ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-mythic ss-grad ss-${SET_CODE}`} />
             </SelectedRarityIconButton>
             )
           : (
             <UnselectedIconButton style={{ width: 74, height: 74 }} onClick={() => toggleRarity('mythic')} color='primary' aria-label='Mythic Cards' component='span'>
-              <SetIconLarge className='ss ss-mythic ss-grad ss-stx' />
+              <SetIconLarge className={`ss ss-mythic ss-grad ss-${SET_CODE}`} />
             </UnselectedIconButton>
             )}
       </Tooltip>
