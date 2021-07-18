@@ -33,12 +33,12 @@ for (const [_, value] of Object.entries(dict)) {
   const { name, manaCost, type, colors, cmc, rarity, image, lsvRating, gihWR, gihWRCount, lsvDescription } = value
   console.log(`
     {
-      "name": "${name}",
-      "manaCost": "${manaCost}",
+      "name": ${JSON.stringify(name)},
+      "manaCost": ${JSON.stringify(manaCost)},
       "colors": ${JSON.stringify(colors)},
       "cmc": ${parseInt(cmc)},
-      "rarity": "${rarity}",
-      "image": "${image}",
+      "rarity": ${JSON.stringify(rarity)},
+      "image": ${JSON.stringify(image)},
       "type": ${JSON.stringify(type)},
       "rating": ${parseFloat(lsvRating)},
       "gihWR": ${JSON.stringify(gihWR)},
