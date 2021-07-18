@@ -1,12 +1,11 @@
-import { useState, useRef } from 'react'
-import Typography from '@material-ui/core/Typography'
+import { useState } from 'react'
 import styled from 'styled-components'
-import { useHotkeys } from 'react-hotkeys-hook'
 import CardMatches from './CardMatches'
 import ColorsHeader from './ColorsHeader'
 import RaritiesHeader from './RaritiesHeader'
 import DescriptionBlock from './DescriptionBlock'
 import Search from './Search'
+import { TypographyShadow } from './sharedStyles'
 import './App.css'
 import './Rune.css'
 
@@ -22,34 +21,10 @@ const OptionsContainer = styled.div`
   }
 `
 
-/* const hasType = (card, types) => {
-  if (!card.types) {
-    return false
-  }
-  const cardTypesArray = card.types
-  for (let i = 0; i <= cardTypesArray.length; i++) {
-    if (types.has(cardTypesArray[i])) {
-      return true
-    }
-  }
-  return false
-} */
-
-const TypographyShadow = styled(Typography)`
-  text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
-`
-
 function App () {
-  const textInput = useRef(null)
   const [searchTerm, setSearchTerm] = useState('')
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
-  useHotkeys('cmd+k', () => textInput.current.focus())
-
-  const clearSearchInputAndFocus = () => {
-    textInput.current.focus()
-    setSearchTerm('')
-  }
 
   const toggleColor = (color) => {
     const newColors = new Set(colors)
@@ -88,8 +63,6 @@ function App () {
         />
       </OptionsContainer>
       <Search
-        clear={clearSearchInputAndFocus}
-        textRef={textInput}
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
       />

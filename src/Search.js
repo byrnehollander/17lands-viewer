@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Button from '@material-ui/core/Button'
 import FormControl from '@material-ui/core/FormControl'
 import InputLabel from '@material-ui/core/InputLabel'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
 import styled from 'styled-components'
+import { useHotkeys } from 'react-hotkeys-hook'
 
 const Container = styled.div`
   margin-bottom: 40px;
@@ -14,11 +15,18 @@ const SearchInputAndClearButton = styled.div`
 `
 
 const Search = ({
-  clear,
-  textRef,
   searchTerm,
   setSearchTerm
 }) => {
+  const textRef = useRef(null)
+
+  useHotkeys('cmd+k', () => textRef.current.focus())
+
+  const clearSearchInputAndFocus = () => {
+    textRef.current.focus()
+    setSearchTerm('')
+  }
+
   return (
     <Container>
       <SearchInputAndClearButton>
@@ -39,7 +47,7 @@ const Search = ({
           variant='outlined'
           color='default'
           style={{ marginLeft: 20 }}
-          onClick={clear}
+          onClick={clearSearchInputAndFocus}
         >Clear
         </Button>
       </SearchInputAndClearButton>
