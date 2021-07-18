@@ -2,13 +2,9 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import IconButton from '@material-ui/core/IconButton'
 import Tooltip from '@material-ui/core/Tooltip'
-import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
-
-const TypographyShadow = styled(Typography)`
-  text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
-`
+import { TypographyShadow } from './sharedStyles'
 
 const FlexEndContainer = styled.div`
   display: flex;

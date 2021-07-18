@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import Tooltip from '@material-ui/core/Tooltip'
-import Typography from '@material-ui/core/Typography'
 import styled from 'styled-components'
 import IconButton from '@material-ui/core/IconButton'
 import { withStyles } from '@material-ui/core/styles'
@@ -11,10 +10,7 @@ import { ReactComponent as Colorless } from './assets/colorless.svg'
 import { ReactComponent as Green } from './assets/green.svg'
 import { ReactComponent as Red } from './assets/red.svg'
 import { ReactComponent as White } from './assets/white.svg'
-
-const TypographyShadow = styled(Typography)`
-  text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
-`
+import { TypographyShadow } from './sharedStyles'
 
 const Container = styled.div`
   display: flex;

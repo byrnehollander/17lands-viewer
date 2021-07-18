@@ -39,7 +39,7 @@ const DescriptionBlock = () => {
   }, [SORTED_WIN_RATES_BY_COLOR])
 
   return (
-    <Accordion defaultExpanded style={{ maxWidth: 980 }}>
+    <Accordion defaultExpanded={false} style={{ maxWidth: 980 }}>
       <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls='panel1a-content'
