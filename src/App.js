@@ -273,7 +273,7 @@ function App () {
   // <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count})
 
   const renderMatchesByCMC = (elements, CMC) => {
-    const filteredCards = elements.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.rating) - parseFloat(a.rating))
+    const filteredCards = elements.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWR.substring(0, 4)) - parseFloat(a.gihWR.substring(0, 4)))
     if (filteredCards.length > 0) {
       return (
         <FlexContainer>
