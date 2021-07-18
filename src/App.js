@@ -1,13 +1,8 @@
 import { useState, useRef } from 'react'
-import Accordion from '@material-ui/core/Accordion'
-import AccordionSummary from '@material-ui/core/AccordionSummary'
-import AccordionDetails from '@material-ui/core/AccordionDetails'
 import Button from '@material-ui/core/Button'
 import FormControl from '@material-ui/core/FormControl'
 import IconButton from '@material-ui/core/IconButton'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import InputLabel from '@material-ui/core/InputLabel'
-import Link from '@material-ui/core/Link'
 import OutlinedInput from '@material-ui/core/OutlinedInput'
 import Tooltip from '@material-ui/core/Tooltip'
 import Typography from '@material-ui/core/Typography'
@@ -16,6 +11,7 @@ import { isMobile } from 'react-device-detect'
 import styled from 'styled-components'
 import { useHotkeys } from 'react-hotkeys-hook'
 import Tilty from 'react-tilty'
+import DescriptionBlock from './DescriptionBlock'
 import './App.css'
 import './Rune.css'
 import cards from './ratings.json'
@@ -160,12 +156,6 @@ const SelectedRarityIconButton = withStyles({
   }
 })(IconButton)
 
-const StyledAccordionDetails = withStyles({
-  root: {
-    flexDirection: 'column'
-  }
-})(AccordionDetails)
-
 const TypographyShadow = styled(Typography)`
   text-shadow: 1px 2px 3px rgb(0 0 0 / 70%);
 `
@@ -270,8 +260,6 @@ function App () {
     return arr
   }
 
-  // <i>{winRates[i].college}</i>: {winRates[i].gihWR} ({winRates[i].count})
-
   const renderMatchesByCMC = (elements, CMC) => {
     const filteredCards = elements.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWR.substring(0, 4)) - parseFloat(a.gihWR.substring(0, 4)))
     if (filteredCards.length > 0) {
@@ -306,26 +294,7 @@ function App () {
   return (
     <Container>
       <TypographyShadow variant='h3' gutterBottom>How good is this card?</TypographyShadow>
-      <Accordion defaultExpanded style={{ maxWidth: 980 }}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls='panel1a-content'
-          id='panel1a-header'
-        >
-          <Typography variant='h6' style={{ fontWeight: 400, fontSize: 16 }}>Learn more about this site</Typography>
-        </AccordionSummary>
-        <StyledAccordionDetails>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            This site uses <Link color='textPrimary' onClick={(event) => event.preventDefault()} href='https://www.17lands.com/card_ratings' target='_blank' rel='noopener noreferrer'>17Lands</Link> data to show how Adventures in the Forgotten Realms cards perform.
-          </Typography>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of EOD July 17, 2021. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
-          </Typography>
-          <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-            Also note that the collective average win rate from 17Lands users is <b>54.1%</b> (in Adventures in the Forgotten Realms Premier Draft).
-          </Typography>
-        </StyledAccordionDetails>
-      </Accordion>
+      <DescriptionBlock />
       <OptionsContainer>
         <ButtonContainer>
           <ColorsHeader>
