@@ -26,26 +26,6 @@ function App () {
   const [colors, setColors] = useState(new Set(['C', 'R', 'G', 'B', 'U', 'W']))
   const [rarities, setRarities] = useState(new Set(['common', 'uncommon', 'rare', 'mythic']))
 
-  const toggleColor = (color) => {
-    const newColors = new Set(colors)
-    if (colors.has(color)) {
-      newColors.delete(color)
-    } else {
-      newColors.add(color)
-    }
-    setColors(newColors)
-  }
-
-  const toggleRarity = (rarity) => {
-    const newRarities = new Set(rarities)
-    if (rarities.has(rarity)) {
-      newRarities.delete(rarity)
-    } else {
-      newRarities.add(rarity)
-    }
-    setRarities(newRarities)
-  }
-
   return (
     <Container>
       <TypographyShadow variant='h3' gutterBottom>How good is this card?</TypographyShadow>
@@ -53,13 +33,11 @@ function App () {
       <OptionsContainer>
         <ColorsHeader
           setColors={setColors}
-          toggleColor={toggleColor}
           colors={colors}
         />
         <RaritiesHeader
           setRarities={setRarities}
           rarities={rarities}
-          toggleRarity={toggleRarity}
         />
       </OptionsContainer>
       <Search

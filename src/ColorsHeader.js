@@ -70,7 +70,17 @@ const StyledColorlessIconButton = withStyles({
   }
 })(IconButton)
 
-const ColorsHeader = ({ setColors, toggleColor, colors }) => {
+const ColorsHeader = ({ setColors, colors }) => {
+  const toggleColor = (color) => {
+    const newColors = new Set(colors)
+    if (colors.has(color)) {
+      newColors.delete(color)
+    } else {
+      newColors.add(color)
+    }
+    setColors(newColors)
+  }
+
   return (
     <ButtonContainer>
       <Container>

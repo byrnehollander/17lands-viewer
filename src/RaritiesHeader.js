@@ -38,7 +38,17 @@ const RarityContainer = styled.div`
   }
 `
 
-const RaritiesHeader = ({ setRarities, rarities, toggleRarity }) => {
+const RaritiesHeader = ({ setRarities, rarities }) => {
+  const toggleRarity = (rarity) => {
+    const newRarities = new Set(rarities)
+    if (rarities.has(rarity)) {
+      newRarities.delete(rarity)
+    } else {
+      newRarities.add(rarity)
+    }
+    setRarities(newRarities)
+  }
+
   return (
     <RarityContainer>
       <FlexEndContainer>

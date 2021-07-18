@@ -12,16 +12,12 @@ const FlexContainer = styled.div`
 `
 
 const hasColor = (card, colors) => {
-  if (!card.colors) {
-    return false
+  const colorless = ['C']
+  let cardColors = card.colors || colorless
+  if (cardColors?.length === 0) {
+    cardColors = colorless
   }
-  const cardColorsArray = card.colors
-  for (let i = 0; i <= cardColorsArray.length; i++) {
-    if (colors.has(cardColorsArray[i])) {
-      return true
-    }
-  }
-  return false
+  return cardColors.some(c => colors.has(c))
 }
 
 const hasRarity = (card, rarities) => {
