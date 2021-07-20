@@ -34,7 +34,7 @@ const DescriptionBlock = () => {
   const renderWinRatesByColor = useMemo(() => {
     return SORTED_WIN_RATES_BY_COLOR.map((c, i) => {
       const diff = calculateDiffFromAverageWinRate(c[1])
-      return <li key={i}><div style={{ minWidth: 120, display: 'inline-block' }}><i>{c[0]}</i>:</div><div style={{ minWidth: 55, display: 'inline-block' }}>{c[1]}%</div> ({diff})</li>
+      return <li key={i}><div style={{ minWidth: 120, display: 'inline-block' }}><i>{c[0]}</i>:</div><div style={{ minWidth: 55, display: 'inline-block' }}>{c[1].toFixed(1)}%</div> ({diff})</li>
     })
   }, [SORTED_WIN_RATES_BY_COLOR])
 

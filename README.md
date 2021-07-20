@@ -1,5 +1,10 @@
 # 17Lands Viewer
 
+## Update Data
+* Go to `/preProcessing` and update `html.js` with the `<table>` extracted from 17Lands' card ratings page
+* Save and then run `node main.js` from the `/preProcessing` folder
+* Run `yarn run deploy` to deploy
+* Optional: update `./src/aggregateData.js` with data from color ratings page
 ## TODOs
 
 1. Process parsedData so every card points to an array with its GIH WR for each college
