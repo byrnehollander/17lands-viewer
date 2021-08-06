@@ -1,18 +1,18 @@
-export const LAST_UPDATED = 'July 30, 2021'
+export const LAST_UPDATED = 'August 6, 2021'
 
 export const WIN_RATES_BY_COLOR = {
-  'Azorius (WU)': 49.8,
-  'Dimir (UB)': 53.8,
+  'Azorius (WU)': 50.0,
+  'Dimir (UB)': 54.2,
   'Rakdos (BR)': 58.9,
-  'Gruul (RG)': 56.7,
-  'Selesnya (GW)': 55.4,
-  'Orzhov (WB)': 54.4,
+  'Gruul (RG)': 56.4,
+  'Selesnya (GW)': 55.8,
+  'Orzhov (WB)': 54.5,
   'Golgari (BG)': 54.4,
-  'Simic (GU)': 53.4,
-  'Izzet (UR)': 52.3,
-  'Boros (RW)': 54.8
+  'Simic (GU)': 53.5,
+  'Izzet (UR)': 52.5,
+  'Boros (RW)': 54.7
 }
 
-export const AVERAGE_WIN_RATE = 54.8
+export const AVERAGE_WIN_RATE = 55.0
 
 export const FORMAT_NAME = 'Adventures in the Forgotten Realms'
