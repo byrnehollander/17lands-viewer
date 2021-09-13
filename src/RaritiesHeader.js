@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
 import { TypographyShadow } from './sharedStyles'
 
-const SET_CODE = 'afr'
+const SET_CODE = 'mid'
 
 const FlexEndContainer = styled.div`
   display: flex;

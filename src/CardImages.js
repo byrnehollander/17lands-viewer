@@ -18,8 +18,6 @@ const CardImages = ({ cards }) => {
     arr.push(
       <div style={{ fontSize: fontSize, marginBottom: 5 }}>
         {card.gihWRCount > 0 ? (<div style={{ marginBottom: 20 }}>17Lands: <b>{card.gihWR}</b> [{calculateDiffFromAverageWinRate(card.gihWR.substring(0, 4))}] ({card.gihWRCount})</div>) : ''}
-        <div><b>{card.rating.toFixed(1)}</b> (LSV)</div>
-        <div>{card.lsvDescription}</div>
       </div>
     )
     return arr

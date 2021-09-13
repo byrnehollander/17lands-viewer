@@ -55,7 +55,7 @@ const DescriptionBlock = () => {
           All percentages are for the <b>Games In Hand Win Rate</b> (GIH WR) metric for Premier Draft as of {LAST_UPDATED}. This is the win rate of games where the card was drawn at some point (including in the opening hand). The number in square brackets is the difference from 17Lands users' average win rate. The number in parentheses is the number of games used to calculate the win rate (i.e., number of games where the card was ever in the player's hand). There seems to be some consensus that GIH WR is the best metric currently on 17Lands, but note that it is biased towards late game cards.
         </Typography>
         <Typography variant='h6' gutterBottom style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
-          Also note that the collective average win rate from 17Lands users is <b>{AVERAGE_WIN_RATE}%</b> (in Adventures in the Forgotten Realms Premier Draft).
+          Also note that the collective average win rate from 17Lands users is <b>{AVERAGE_WIN_RATE}%</b> (in {FORMAT_NAME} Premier Draft).
         </Typography>
         <Typography variant='h6' style={{ maxWidth: 950, fontWeight: 400, fontSize: 16 }}>
           Lastly, here are the win rates by color pair for 17Lands users (looking at <i>exactly</i> 2 colors):
