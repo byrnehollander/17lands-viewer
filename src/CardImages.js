@@ -27,13 +27,12 @@ const CardImages = ({ cards }) => {
     return <img src={url} alt={name} width={width} />
   }
 
-  const renderImage = (url, name, width) => {
-    if (url.includes('/back/')) {
-      const front = url.replace('/back/', '/front/')
+  const renderImage = (url, backUrl, name, width) => {
+    if (backUrl != null) {
       return (
         <>
-          {renderSingleImage(front, name, width)}
           {renderSingleImage(url, name, width)}
+          {renderSingleImage(backUrl, name, width)}
         </>
       )
     }
@@ -45,7 +44,7 @@ const CardImages = ({ cards }) => {
       return (
         <MobileCardsContainer key={i}>
           <div style={{ marginRight: 10, width: 'fit-content' }}>
-            {renderImage(c.image, c.name, 150)}
+            {renderImage(c.image, c.backImage, c.name, 150)}
           </div>
           <div style={{ width: 'calc(90vw-155)', marginLeft: 5, marginTop: 8 }}>
             {renderRatingAndDescription(c, 14)}
@@ -60,11 +59,11 @@ const CardImages = ({ cards }) => {
         <Tilty
           scale={1.05}
           max={8}
-          style={{ minWidth: smallMode ? 330 : 450, marginRight: 20, marginBottom: 20 }}
+          style={{ minWidth: smallMode ? 298 : 406, marginRight: 20, marginBottom: 20 }}
         >
-          {renderImage(c.image, c.name, smallMode ? 320 : 440)}
+          {renderImage(c.image, c.backImage, c.name, smallMode ? 288 : 396)}
         </Tilty>
-        <div style={{ width: smallMode ? 310 : 420, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
+        <div style={{ width: smallMode ? 278 : 386, marginLeft: smallMode ? 10 : 30, marginBottom: 70 }}>
           {renderRatingAndDescription(c, 18)}
         </div>
       </div>

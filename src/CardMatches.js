@@ -31,7 +31,8 @@ const CardMatches = ({
 }) => {
   const matches = useMemo(() => {
     if (searchTerm.length > 0) {
-      return cards.filter(c => c.name.toLowerCase().includes(searchTerm.toLowerCase().trim()))
+      const term = searchTerm.toLowerCase().trim()
+      return cards.filter(c => c.name.toLowerCase().includes(term) || c.keywords.join(' ').toLowerCase().includes(term) || c.type.toLowerCase().includes(term))
     } else {
       return cards.filter(c => hasColor(c, colors) && hasRarity(c, rarities)).slice(0, LIMIT)
     }
