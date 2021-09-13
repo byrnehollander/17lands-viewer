@@ -47,7 +47,7 @@ const CardMatches = ({
   if (sortedCards?.length > 0) {
     return (
       <>
-        {sortedCards?.length > 2 && <TypographyShadow variant='h6' gutterBottom>Showing {sortedCards.length} Cards</TypographyShadow>}
+        {sortedCards?.length > 2 && <TypographyShadow variant='h6' gutterBottom>Showing {sortedCards.length} cards</TypographyShadow>}
         <FlexContainer>
           <CardImages cards={sortedCards} />
         </FlexContainer>
