@@ -4,13 +4,14 @@ import IconButton from '@material-ui/core/IconButton'
 import Tooltip from '@material-ui/core/Tooltip'
 import { withStyles } from '@material-ui/core/styles'
 import styled from 'styled-components'
-import { TypographyShadow } from './sharedStyles'
+import { TypographyShadowNoMargin } from './sharedStyles'
 
 const SET_CODE = 'mid'
 
 const FlexEndContainer = styled.div`
   display: flex;
   align-items: end;
+  margin-bottom: 15px;
 `
 
 const SetIconLarge = styled.span`
@@ -55,7 +56,7 @@ const RaritiesHeader = ({ setRarities, rarities }) => {
     <RarityContainer>
       <FlexEndContainer>
         <Tooltip title='All rarities are selected by default' placement='top-start'>
-          <TypographyShadow variant='h6' gutterBottom>RARITIES</TypographyShadow>
+          <TypographyShadowNoMargin variant='h6' gutterBottom>RARITIES</TypographyShadowNoMargin>
         </Tooltip>
         {rarities.size === 0
           ? (

@@ -10,11 +10,12 @@ import { ReactComponent as Colorless } from './assets/colorless.svg'
 import { ReactComponent as Green } from './assets/green.svg'
 import { ReactComponent as Red } from './assets/red.svg'
 import { ReactComponent as White } from './assets/white.svg'
-import { TypographyShadow } from './sharedStyles'
+import { TypographyShadowNoMargin } from './sharedStyles'
 
 const Container = styled.div`
   display: flex;
   align-items: end;
+  margin-bottom: 15px;
 `
 
 const UnselectedIconButton = styled(IconButton)`
@@ -85,7 +86,7 @@ const ColorsHeader = ({ setColors, colors }) => {
     <ButtonContainer>
       <Container>
         <Tooltip title='All colors are selected by default' placement='top-start'>
-          <TypographyShadow variant='h6' gutterBottom>COLORS</TypographyShadow>
+          <TypographyShadowNoMargin variant='h6' gutterBottom>COLORS</TypographyShadowNoMargin>
         </Tooltip>
         {colors.size === 0
           ? (
