@@ -1,20 +1,17 @@
-const cards = require('./lsvRatings.json')
+const cards = require('./cardsInfo.json')
 
 const saveWinRates = (winRates) => {
   const dict = {}
 
   for (let i = 0; i < cards.length; i++) {
-    const { name, manaCost, type, colors, cmc, rarity, image, rating, ratingDescription } = cards[i]
+    const { name, type, colors, cmc, rarity, image } = cards[i]
     dict[name] = {
       name,
-      manaCost,
       colors,
       cmc: parseInt(cmc),
       rarity,
       image,
       type,
-      lsvRating: parseFloat(rating).toFixed(1),
-      lsvDescription: ratingDescription,
       gihWR: '0',
       gihWRCount: '0'
     }
@@ -32,21 +29,17 @@ const saveWinRates = (winRates) => {
 
   // print the dictionary
   for (const [_, value] of Object.entries(dict)) {
-    const { name, manaCost, type, colors, cmc, rarity, image, lsvRating, gihWR, gihWRCount, lsvDescription } = value
+    const { name, type, colors, cmc, rarity, image, gihWR, gihWRCount } = value
     arrayToWrite.push(
       {
         name: name,
-        manaCost: manaCost,
         colors: colors,
         cmc: parseInt(cmc),
         rarity: rarity,
         image: image,
         type: type,
-        rating: parseFloat(lsvRating),
         gihWR: gihWR,
-        gihWRCount: parseInt(gihWRCount),
-        lsvRating: lsvRating,
-        lsvDescription: lsvDescription
+        gihWRCount: parseInt(gihWRCount)
       })
   }
 
