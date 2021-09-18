@@ -13,6 +13,6 @@ export const WIN_RATES_BY_COLOR = {
   'Boros (RW)': 58.2
 }
 
-export const AVERAGE_WIN_RATE = 57.0
+export const AVERAGE_WIN_RATE = 56.9
 
 export const FORMAT_NAME = 'Innistrad: Midnight Hunt'
