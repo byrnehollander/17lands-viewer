@@ -5,7 +5,8 @@ const saveWinRates = (winRates) => {
 
   for (let i = 0; i < cards.length; i++) {
     const { name, type, keywords, colors, cmc, rarity, image, backImage } = cards[i]
-    dict[name] = {
+    const shortName = name.split(' // ')[0]
+    dict[shortName] = {
       name,
       colors,
       keywords,
