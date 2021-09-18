@@ -1,18 +1,18 @@
-export const LAST_UPDATED = 'September 14, 2021'
+export const LAST_UPDATED = 'September 17, 2021'
 
 export const WIN_RATES_BY_COLOR = {
-  'Azorius (WU)': 50,
-  'Dimir (UB)': 50,
-  'Rakdos (BR)': 50,
-  'Gruul (RG)': 50,
-  'Selesnya (GW)': 50,
-  'Orzhov (WB)': 50,
-  'Golgari (BG)': 50,
-  'Simic (GU)': 50,
-  'Izzet (UR)': 50,
-  'Boros (RW)': 50
+  'Azorius (WU)': 60.3,
+  'Dimir (UB)': 61.0,
+  'Rakdos (BR)': 56.2,
+  'Gruul (RG)': 52.1,
+  'Selesnya (GW)': 59.7,
+  'Orzhov (WB)': 59.4,
+  'Golgari (BG)': 57.9,
+  'Simic (GU)': 61.0,
+  'Izzet (UR)': 54.4,
+  'Boros (RW)': 58.2
 }
 
-export const AVERAGE_WIN_RATE = 50
+export const AVERAGE_WIN_RATE = 57.0
 
 export const FORMAT_NAME = 'Innistrad: Midnight Hunt'
