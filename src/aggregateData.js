@@ -1,4 +1,4 @@
-export const LAST_UPDATED = 'September 19, 2021'
+export const LAST_UPDATED = 'September 20, 2021'
 
 export const WIN_RATES_BY_COLOR = {
   'Azorius (WU)': 60.3,
@@ -13,6 +13,6 @@ export const WIN_RATES_BY_COLOR = {
   'Boros (RW)': 56.2
 }
 
-export const AVERAGE_WIN_RATE = 56.7
+export const AVERAGE_WIN_RATE = 56.5
 
 export const FORMAT_NAME = 'Innistrad: Midnight Hunt'
