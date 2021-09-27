@@ -8,7 +8,7 @@ export const WIN_RATES_BY_COLOR = {
   'Selesnya (GW)': 57.7,
   'Orzhov (WB)': 56.9,
   'Golgari (BG)': 55.1,
-  'Simic (GU)': 58.0,
+  'Simic (UG)': 58.0,
   'Izzet (UR)': 52.5,
   'Boros (RW)': 54.7
 }

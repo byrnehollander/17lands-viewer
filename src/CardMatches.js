@@ -2,7 +2,7 @@ import React, { useMemo } from 'react'
 import CardImages from './CardImages'
 import styled from 'styled-components'
 import { TypographyShadow } from './sharedStyles'
-import cards from './ratings.json'
+import cards from './ratingsPairs.json'
 
 const LIMIT = 500
 
@@ -38,7 +38,7 @@ const CardMatches = ({
     }
   }, [searchTerm, rarities, colors])
 
-  const sortedCards = useMemo(() => matches.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWR.substring(0, 4)) - parseFloat(a.gihWR.substring(0, 4))), [matches])
+  const sortedCards = useMemo(() => matches.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWRByColors.Overall?.gihWR.substring(0, 4)) - parseFloat(a.gihWRByColors.Overall?.gihWR.substring(0, 4))), [matches])
 
   if (matches.length === 0) {
     return <TypographyShadow variant='h6' gutterBottom>No cards match your filters</TypographyShadow>

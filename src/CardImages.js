@@ -2,7 +2,19 @@ import React, { useMemo } from 'react'
 import { isMobile } from 'react-device-detect'
 import Tilty from 'react-tilty'
 import styled from 'styled-components'
-import { calculateDiffFromAverageWinRate } from './helpers'
+import {
+  calculateDiffFromAverageWinRate,
+  calculateDiffFromAverageBGWinRate,
+  calculateDiffFromAverageBRWinRate,
+  calculateDiffFromAverageRGWinRate,
+  calculateDiffFromAverageUBWinRate,
+  calculateDiffFromAverageUGWinRate,
+  calculateDiffFromAverageURWinRate,
+  calculateDiffFromAverageWBWinRate,
+  calculateDiffFromAverageWGWinRate,
+  calculateDiffFromAverageWRWinRate,
+  calculateDiffFromAverageWUWinRate
+} from './helpers'
 
 const MobileCardsContainer = styled.div`
   display: flex;
@@ -13,11 +25,66 @@ const MobileCardsContainer = styled.div`
 const CardImages = ({ cards }) => {
   const smallMode = useMemo(() => cards?.length > 2, [cards])
 
+  const renderRows = (gihWRByColors) => {
+    const items = Object.keys(gihWRByColors).map(function(key) {
+      return [key, gihWRByColors[key]];
+    })
+    
+    console.log(items)
+
+    items.sort(function(first, second) {
+      return parseInt(second[1].gihWR) - parseInt(first[1].gihWR)
+    })
+
+    console.log(items)
+
+    return items.map((item, i) => {
+      const [colorPairName, color] = item
+      if (color.gihWRCount > 0) {
+        let func = calculateDiffFromAverageWinRate
+        if (colorPairName === "BG") {
+          func = calculateDiffFromAverageBGWinRate
+        }
+        else if (colorPairName === "BR") {
+          func = calculateDiffFromAverageBRWinRate
+        }
+        else if (colorPairName === "RG") {
+          func = calculateDiffFromAverageRGWinRate
+        }
+        else if (colorPairName === "UB") {
+          func = calculateDiffFromAverageUBWinRate
+        }
+        else if (colorPairName === "UG") {
+          func = calculateDiffFromAverageUGWinRate
+        }
+        else if (colorPairName === "UR") {
+          func = calculateDiffFromAverageURWinRate
+        }
+        else if (colorPairName === "WB") {
+          func = calculateDiffFromAverageWBWinRate
+        }
+        else if (colorPairName === "WG") {
+          func = calculateDiffFromAverageWGWinRate
+        }
+        else if (colorPairName === "WR") {
+          func = calculateDiffFromAverageWRWinRate
+        }
+        else if (colorPairName === "WU") {
+          func = calculateDiffFromAverageWUWinRate
+        }
+        return (
+          <div key={i} style={{ marginBottom: 20 }}>{colorPairName}: <b>{color.gihWR}</b> [{func(color.gihWR.substring(0, 4))}] ({color.gihWRCount})</div>
+        )
+      }
+      return ""
+    })
+  }
+
   const renderRatingAndDescription = (card, fontSize) => {
     const arr = []
     arr.push(
       <div style={{ fontSize: fontSize, marginBottom: 5 }}>
-        {card.gihWRCount > 0 ? (<div style={{ marginBottom: 20 }}>17Lands: <b>{card.gihWR}</b> [{calculateDiffFromAverageWinRate(card.gihWR.substring(0, 4))}] ({card.gihWRCount})</div>) : ''}
+        {renderRows(card.gihWRByColors)}
       </div>
     )
     return arr
