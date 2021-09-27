@@ -38,8 +38,8 @@ const CardMatches = ({
     }
   }, [searchTerm, rarities, colors])
 
-  const sortedCards = useMemo(() => matches.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWRByColors.Overall?.gihWR.substring(0, 4)) - parseFloat(a.gihWRByColors.Overall?.gihWR.substring(0, 4))), [matches])
-
+  const sortedCards = useMemo(() => matches.sort((a, b) => a.name.localeCompare(b.name)).sort((a, b) => parseFloat(b.gihWRByColors.Overall?.gihWR.substring(0, 4) || 0) - parseFloat(a.gihWRByColors.Overall?.gihWR.substring(0, 4)  || 0)), [matches])
+  
   if (matches.length === 0) {
     return <TypographyShadow variant='h6' gutterBottom>No cards match your filters</TypographyShadow>
   }

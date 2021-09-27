@@ -30,13 +30,9 @@ const CardImages = ({ cards }) => {
       return [key, gihWRByColors[key]];
     })
     
-    console.log(items)
-
     items.sort(function(first, second) {
-      return parseInt(second[1].gihWR) - parseInt(first[1].gihWR)
+      return parseFloat(second[1].gihWR) - parseFloat(first[1].gihWR)
     })
-
-    console.log(items)
 
     return items.map((item, i) => {
       const [colorPairName, color] = item
